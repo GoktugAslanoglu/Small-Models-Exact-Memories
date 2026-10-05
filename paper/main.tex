@@ -30,6 +30,7 @@
 
 \begin{abstract}
 Can unmodified small multimodal readers use rendered histories as memory without losing exact state? We evaluate zero-shot optical memory through an 18-episode controlled stress test and long-horizon conversational QA. On a frozen 100-question LoCoMo subset, dense 8 px histories score .027/.099 F1 for Qwen3.5-2B/9B, versus .384/.410 for raw text and .415/.422 for input-count-matched BM25. Gold-selected evidence at the same density recovers to .383/.510; GLM-4.6V-Flash reproduces the qualitative pattern. Unreadability alone therefore cannot explain full-history failure, although selection, distractors, page count, and context use remain jointly implicated. A separate 500-question follow-up finds that BM25-selected optical evidence improves over full optical for all three readers, but the same evidence scores higher as text. In the controlled pilot, exact match at the only processor-measured compressed point spans 5.6\%--55.6\% across Qwen sizes; GLM reaches 27.8\%. A separate held-out identifier diagnostic improves exact recovery through layout changes at matched native input counts, without closing the gap to text. These results characterize a failure regime for naive dense optical packing, not a universal scaling law or a general disadvantage for engineered optical memory.
+Code and evaluation artifacts are available on \href{https://github.com/GoktugAslanoglu/Small-Models-Exact-Memories}{GitHub}.
 \end{abstract}
 
 \section{Introduction}
