@@ -51,10 +51,11 @@
     {
       "public_path": "paper/main.tex",
       "source": "final-paper-source/main.tex",
-      "source_sha256": "8bd9fb2bb10149cbd52997f8d960718ae95695c1d5aa6835cbd1a80ebd430a0b",
-      "public_sha256": "8bd9fb2bb10149cbd52997f8d960718ae95695c1d5aa6835cbd1a80ebd430a0b",
-      "previous_public_sha256": "058927dffa5ca49b729e5feaf7a2f134d65880b37db86316675200b54d578448",
-      "update": "Added one final abstract sentence linking the GitHub artifact; scientific text is unchanged",
+      "source_sha256": "300d7a55b95675a6703a0b8ce92222f9da801b1793917c47a07528148879e01f",
+      "public_sha256": "300d7a55b95675a6703a0b8ce92222f9da801b1793917c47a07528148879e01f",
+      "previous_public_sha256": "8bd9fb2bb10149cbd52997f8d960718ae95695c1d5aa6835cbd1a80ebd430a0b",
+      "initial_public_sha256": "058927dffa5ca49b729e5feaf7a2f134d65880b37db86316675200b54d578448",
+      "update": "Added the abstract artifact link and author-supplied email addresses; scientific text is unchanged",
       "transformation": "byte-identical copy"
     },
     {
