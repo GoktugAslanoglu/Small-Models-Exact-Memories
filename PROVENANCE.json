@@ -38,6 +38,15 @@
     "MANIFEST.json"
   ],
   "original_study_files": 217,
+  "removed_from_current_tree": [
+    {
+      "path": "paper/Small-Models-Exact-Memories-Camera-Ready.pdf",
+      "sha256": "4fc902949ecd3bd3ce89a1ab6cf16b43ec7f12d1b674ff023e2220f94237a24c",
+      "reason": "Compiled paper PDF removed at author request; read the paper on OpenReview instead",
+      "paper_url": "https://openreview.net/forum?id=J6WelHzPEa",
+      "historical_availability": "Preserved in the initial commit and v1.0.0 tag; Git history was not rewritten"
+    }
+  ],
   "files": [
     {
       "public_path": "paper/main.tex",
@@ -130,13 +139,6 @@
       "transformation": "byte-identical copy",
       "imported_sha256": "5eef39d08390b30bce12bef010a1520bdb1b64062490a46fe8e72e97401ad97b",
       "numerically_reconstructed_before_publication": true
-    },
-    {
-      "public_path": "paper/Small-Models-Exact-Memories-Camera-Ready.pdf",
-      "source": "final-paper-source/Small-Models-Exact-Memories-Camera-Ready.pdf",
-      "source_sha256": "4fc902949ecd3bd3ce89a1ab6cf16b43ec7f12d1b674ff023e2220f94237a24c",
-      "public_sha256": "4fc902949ecd3bd3ce89a1ab6cf16b43ec7f12d1b674ff023e2220f94237a24c",
-      "transformation": "byte-identical copy"
     },
     {
       "public_path": "paper/table_followup.tex",

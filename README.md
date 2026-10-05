@@ -5,14 +5,14 @@
 Göktuğ Aslanoğlu, Viswanadh Vadlamani, and Şuayp Talha Kocabay.
 Accepted at the SLM-Agents Workshop at NeurIPS 2026.
 
-This repository contains the final paper, its LaTeX source, paper-specific
+This repository contains the paper's LaTeX source, paper-specific
 evaluation evidence, and numerical reconstruction scripts. It studies fixed,
 zero-shot multimodal readers, not a new compression architecture or an
 end-to-end agent system.
 
 ## Paper and experiments
 
-[Read the paper](paper/Small-Models-Exact-Memories-Camera-Ready.pdf).
+[Read the paper on OpenReview](https://openreview.net/forum?id=J6WelHzPEa).
 
 The reported studies comprise:
 
@@ -118,7 +118,7 @@ evidence that an omitted archive is included or that a study was independently
 preregistered. The matched-input exports are checked records, not a fresh
 processor run.
 
-## Rights and citation
+## Rights
 
 The existing repository MIT license applies to original software only.
 Benchmark-derived data, manuscript, figures, fonts, templates, model assets,
@@ -127,6 +127,21 @@ See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and
 [third-party notices](third_party/NOTICES.md). LoCoMo-derived material retains
 its Attribution-NonCommercial 4.0 terms. Model weights are not distributed.
 
-Use GitHub's citation button or `CITATION.cff`; identify the commit or release
-when citing this artifact. The `v1.0.0` tag identifies the initial public
-artifact supporting the final workshop paper.
+## Citation
+
+The paper is available on [OpenReview](https://openreview.net/forum?id=J6WelHzPEa).
+Please cite it using the entry below or [`citation.bib`](citation.bib).
+GitHub's citation button uses the paper citation in `CITATION.cff`.
+When identifying the software artifact, also specify the commit or release
+used. The `v1.0.0` tag preserves the initial artifact; current `main` links to
+OpenReview instead of distributing a compiled paper PDF.
+
+```bibtex
+@inproceedings{aslanoglu2026smallmodels,
+  title     = {{Small Models, Exact Memories}: Stress-Testing Optical Memory for Small Multimodal Agents},
+  author    = {Aslano{\u{g}}lu, G{\"o}ktu{\u{g}} and Vadlamani, Viswanadh and Kocabay, {\c{S}}uayp Talha},
+  booktitle = {SLM-Agents: Workshop on SLMs for Agentic Systems at NeurIPS},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=J6WelHzPEa}
+}
+```

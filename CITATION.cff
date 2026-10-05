@@ -16,3 +16,16 @@ version: "1.0.0"
 date-released: "2026-10-05"
 repository-code: "https://github.com/GoktugAslanoglu/Small-Models-Exact-Memories"
 url: "https://github.com/GoktugAslanoglu/Small-Models-Exact-Memories"
+preferred-citation:
+  type: conference-paper
+  title: "Small Models, Exact Memories: Stress-Testing Optical Memory for Small Multimodal Agents"
+  authors:
+    - family-names: "Aslanoğlu"
+      given-names: "Göktuğ"
+    - family-names: "Vadlamani"
+      given-names: "Viswanadh"
+    - family-names: "Kocabay"
+      given-names: "Şuayp Talha"
+  collection-title: "SLM-Agents: Workshop on SLMs for Agentic Systems at NeurIPS"
+  year: 2026
+  url: "https://openreview.net/forum?id=J6WelHzPEa"
