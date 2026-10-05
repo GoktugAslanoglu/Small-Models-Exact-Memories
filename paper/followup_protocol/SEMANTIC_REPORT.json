@@ -1,0 +1,46 @@
+{
+  "status": "verified",
+  "question_reader_pairs": 1500,
+  "arm_rows": 9000,
+  "coverage": {
+    "Qwen/Qwen3.5-2B": {
+      "conv-50": 55,
+      "conv-42": 75,
+      "conv-41": 41,
+      "conv-49": 43,
+      "conv-48": 61,
+      "conv-43": 58,
+      "conv-26": 46,
+      "conv-47": 51,
+      "conv-44": 41,
+      "conv-30": 29
+    },
+    "Qwen/Qwen3.5-9B": {
+      "conv-50": 55,
+      "conv-26": 46,
+      "conv-43": 58,
+      "conv-49": 43,
+      "conv-47": 51,
+      "conv-30": 29,
+      "conv-44": 41,
+      "conv-42": 75,
+      "conv-41": 41,
+      "conv-48": 61
+    },
+    "zai-org/GLM-4.6V-Flash": {
+      "conv-50": 55,
+      "conv-42": 75,
+      "conv-41": 41,
+      "conv-49": 43,
+      "conv-48": 61,
+      "conv-43": 58,
+      "conv-26": 46,
+      "conv-47": 51,
+      "conv-44": 41,
+      "conv-30": 29
+    }
+  },
+  "same_evidence_and_selected_turns": true,
+  "matched_budget_and_prefix_replay": true,
+  "context_and_count_checks": true
+}

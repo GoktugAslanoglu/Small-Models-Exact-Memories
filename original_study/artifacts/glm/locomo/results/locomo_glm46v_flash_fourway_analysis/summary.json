@@ -1,0 +1,162 @@
+[
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.257899,
+    "normalized_exact_match_rate": 0.09,
+    "mean_latency_seconds": 1.976883,
+    "total_latency_seconds": 197.688
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.089239,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.92672,
+    "total_latency_seconds": 38.534
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.402325,
+    "normalized_exact_match_rate": 0.18,
+    "mean_latency_seconds": 2.060098,
+    "total_latency_seconds": 103.005
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.12963,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.871634,
+    "total_latency_seconds": 56.149
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_optical_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.182217,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 2.978269,
+    "total_latency_seconds": 297.827
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_optical_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.08281,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 3.281768,
+    "total_latency_seconds": 65.635
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_optical_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.271549,
+    "normalized_exact_match_rate": 0.2,
+    "mean_latency_seconds": 2.952771,
+    "total_latency_seconds": 147.639
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_optical_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.099603,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 2.818431,
+    "total_latency_seconds": 84.553
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_raw_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.325286,
+    "normalized_exact_match_rate": 0.15,
+    "mean_latency_seconds": 3.507419,
+    "total_latency_seconds": 350.742
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_raw_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.289422,
+    "normalized_exact_match_rate": 0.05,
+    "mean_latency_seconds": 3.557883,
+    "total_latency_seconds": 71.158
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_raw_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.479042,
+    "normalized_exact_match_rate": 0.28,
+    "mean_latency_seconds": 3.594771,
+    "total_latency_seconds": 179.739
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "full_raw_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.092937,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 3.328188,
+    "total_latency_seconds": 99.846
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "selected_evidence_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.142349,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.867251,
+    "total_latency_seconds": 86.725
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "selected_evidence_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.10467,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.896507,
+    "total_latency_seconds": 17.93
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "selected_evidence_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.221829,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.941092,
+    "total_latency_seconds": 47.055
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "condition": "selected_evidence_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.035,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.72468,
+    "total_latency_seconds": 21.74
+  }
+]

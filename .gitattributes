@@ -1,0 +1,6 @@
+# Preserve frozen source/evidence bytes for hash-based verification.
+* -text
+# Retain the existing repository license's original Git line-ending policy.
+/LICENSE text
+*.pdf binary
+*.png binary

@@ -1,0 +1,23 @@
+{
+  "seed": 20260826,
+  "samples_per_type": 10,
+  "target_chars": 36000,
+  "output": "data/generated/pilot.jsonl",
+  "render": {
+    "output_dir": "renders/generated/pilot",
+    "canvas_width": 2044,
+    "canvas_height": 2044,
+    "margin": 28,
+    "preferred_max_pages": 2,
+    "min_font_size": 3,
+    "max_font_size": 12,
+    "strip_fraction": 0.22,
+    "strip_min_font_size": 4,
+    "strip_max_font_size": 12,
+    "compression_targets": [2, 4, 8, 16],
+    "exactstrip_targets": [8, 16],
+    "pixels_per_vision_token": 784,
+    "chars_per_text_token_estimate": 4.0
+  }
+}
+

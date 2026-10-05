@@ -1,0 +1,124 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bai et~al.(2024)Bai, Lv, Zhang, et~al.]{bai2024longbench}
+Yushi Bai, Xin Lv, Jiajie Zhang, et~al.
+\newblock Longbench: A bilingual, multitask benchmark for long context
+  understanding.
+\newblock In \emph{Proceedings of ACL}, 2024.
+
+\bibitem[Cheng et~al.(2026)Cheng, Liu, Zhang, et~al.]{cheng2026glyph}
+Jiale Cheng, Yusen Liu, Xinyu Zhang, et~al.
+\newblock Glyph: Scaling context windows via visual-text compression.
+\newblock In \emph{Proceedings of ACL}, 2026.
+
+\bibitem[Choi et~al.(2026)Choi, Ko, Lee, Kim, Song, Jeon, and
+  Shin]{choi2026naive}
+Seoyoung Choi, Minseok Ko, Hyunseok Lee, Kunwoong Kim, Woomin Song, Chanseok
+  Jeon, and Jinwoo Shin.
+\newblock Naive visual memory is not enough: A failure-mode study of gui
+  agents, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.14106}.
+
+\bibitem[Feng et~al.(2026)Feng, Yang, Chen, et~al.]{feng2026agentocr}
+Lang Feng, Fuchao Yang, Feng Chen, et~al.
+\newblock Agentocr: Reimagining agent history via optical self-compression.
+\newblock In \emph{Proceedings of ACL}, 2026.
+
+\bibitem[Fu et~al.(2025)Fu, Kuang, Song, et~al.]{fu2025ocrbench}
+Ling Fu, Zhebin Kuang, Jiajun Song, et~al.
+\newblock Ocrbench v2: An improved benchmark for evaluating large multimodal
+  models on visual text localization and reasoning.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2025.
+
+\bibitem[Hsieh et~al.(2024)Hsieh, Sun, Kriman, et~al.]{hsieh2024ruler}
+Cheng-Ping Hsieh, Simeng Sun, Samuel Kriman, et~al.
+\newblock Ruler: What's the real context size of your long-context language
+  models?
+\newblock In \emph{Conference on Language Modeling}, 2024.
+
+\bibitem[Lee et~al.(2025)Lee, Yang, and Berg-Kirkpatrick]{lee2025bad}
+Ivan~Yee Lee, Cheng Yang, and Taylor Berg-Kirkpatrick.
+\newblock Optical context compression is just (bad) autoencoding.
+\newblock \emph{arXiv preprint arXiv:2512.03643}, 2025.
+
+\bibitem[Lee et~al.(2023)Lee, Joshi, Turc, et~al.]{lee2023pix2struct}
+Kenton Lee, Mandar Joshi, Iulia~Raluca Turc, et~al.
+\newblock Pix2struct: Screenshot parsing as pretraining for visual language
+  understanding.
+\newblock In \emph{Proceedings of ICML}, 2023.
+
+\bibitem[Li et~al.(2026)Li, Zhang, Yang, et~al.]{li2026ocrmemory}
+Jinze Li, Yang Zhang, Xin Yang, et~al.
+\newblock Ocr-memory: Optical context retrieval for long-horizon agent memory.
+\newblock In \emph{Proceedings of ACL}, 2026.
+
+\bibitem[Li et~al.(2025)Li, Lan, and Zhou]{li2025textpixels}
+Yanhong Li, Zixuan Lan, and Jiawei Zhou.
+\newblock Text or pixels? evaluating efficiency and understanding of llms with
+  visual text inputs.
+\newblock In \emph{Findings of EMNLP}, 2025.
+
+\bibitem[Liang et~al.(2026)Liang, Song, Chen, et~al.]{liang2026vizomem}
+Weijie Liang, Yuanfeng Song, Xing Chen, et~al.
+\newblock Vizomem: A visual-textual memory framework for efficient long-horizon
+  reasoning.
+\newblock In \emph{Findings of ACL}, 2026.
+
+\bibitem[Ma et~al.(2024)Ma, Zang, Chen, et~al.]{ma2024mmlongbench}
+Yubo Ma, Yuhang Zang, Liangyu Chen, et~al.
+\newblock Mmlongbench-doc: Benchmarking long-context document understanding
+  with visualizations.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2024.
+
+\bibitem[Maharana et~al.(2024)Maharana, Lee, Tulyakov,
+  et~al.]{maharana2024locomo}
+Adyasha Maharana, Dong-Ho Lee, Sergey Tulyakov, et~al.
+\newblock Evaluating very long-term conversational memory of llm agents.
+\newblock In \emph{Proceedings of ACL}, 2024.
+
+\bibitem[{Qwen Team}(2026)]{qwen2026qwen35}
+{Qwen Team}.
+\newblock Qwen3.5: Towards native multimodal agents.
+\newblock Official technical announcement and model documentation, 2026.
+\newblock URL \url{https://qwen.ai/blog?id=qwen3.5}.
+
+\bibitem[Rust et~al.(2023)Rust, Lotz, Bugliarello, et~al.]{rust2023pixel}
+Phillip Rust, Jonas~F. Lotz, Emanuele Bugliarello, et~al.
+\newblock Language modelling with pixels.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Shi et~al.(2026)Shi, Liu, Yang, et~al.]{shi2026memocr}
+Yaorui Shi, Shugui Liu, Yu~Yang, et~al.
+\newblock Memocr: Layout-aware visual memory for efficient long-horizon
+  reasoning.
+\newblock \emph{arXiv preprint arXiv:2601.21468}, 2026.
+
+\bibitem[Tu et~al.(2026)Tu, Crispino, Montgomery, et~al.]{tu2026fico}
+Jianhong Tu, Nicholas Crispino, Kyle Montgomery, et~al.
+\newblock Fico: Evaluating vision-language models under visual fidelity and
+  compression at scale.
+\newblock In \emph{Findings of ACL}, 2026.
+
+\bibitem[Wei et~al.(2025)Wei, Sun, and Li]{wei2025deepseekocr}
+Haoran Wei, Yaofeng Sun, and Yukun Li.
+\newblock Deepseek-ocr: Contexts optical compression.
+\newblock \emph{arXiv preprint arXiv:2510.18234}, 2025.
+
+\bibitem[Wu et~al.(2025)Wu, Wang, Yu, et~al.]{wu2025longmemeval}
+Di~Wu, Hongwei Wang, Wenhao Yu, et~al.
+\newblock Longmemeval: Benchmarking chat assistants on long-term interactive
+  memory.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+
+\bibitem[{Z.ai}(2026)]{zai2026glm46v}
+{Z.ai}.
+\newblock Glm-4.6v-flash model card.
+\newblock Hugging Face model documentation, 2026.
+\newblock URL \url{https://huggingface.co/zai-org/GLM-4.6V-Flash}.
+
+\end{thebibliography}

@@ -1,0 +1,17 @@
+model,condition,category_name,n,mean_official_token_f1,normalized_exact_match_rate,mean_latency_seconds,total_latency_seconds
+zai-org/GLM-4.6V-Flash,bm25_equal_vision_budget_text,ALL,100,0.257899,0.09,1.976883,197.688
+zai-org/GLM-4.6V-Flash,bm25_equal_vision_budget_text,multi_hop,20,0.089239,0,1.92672,38.534
+zai-org/GLM-4.6V-Flash,bm25_equal_vision_budget_text,single_hop,50,0.402325,0.18,2.060098,103.005
+zai-org/GLM-4.6V-Flash,bm25_equal_vision_budget_text,temporal,30,0.12963,0,1.871634,56.149
+zai-org/GLM-4.6V-Flash,full_optical_8px,ALL,100,0.182217,0.1,2.978269,297.827
+zai-org/GLM-4.6V-Flash,full_optical_8px,multi_hop,20,0.08281,0,3.281768,65.635
+zai-org/GLM-4.6V-Flash,full_optical_8px,single_hop,50,0.271549,0.2,2.952771,147.639
+zai-org/GLM-4.6V-Flash,full_optical_8px,temporal,30,0.099603,0,2.818431,84.553
+zai-org/GLM-4.6V-Flash,full_raw_text,ALL,100,0.325286,0.15,3.507419,350.742
+zai-org/GLM-4.6V-Flash,full_raw_text,multi_hop,20,0.289422,0.05,3.557883,71.158
+zai-org/GLM-4.6V-Flash,full_raw_text,single_hop,50,0.479042,0.28,3.594771,179.739
+zai-org/GLM-4.6V-Flash,full_raw_text,temporal,30,0.092937,0,3.328188,99.846
+zai-org/GLM-4.6V-Flash,selected_evidence_8px,ALL,100,0.142349,0,0.867251,86.725
+zai-org/GLM-4.6V-Flash,selected_evidence_8px,multi_hop,20,0.10467,0,0.896507,17.93
+zai-org/GLM-4.6V-Flash,selected_evidence_8px,single_hop,50,0.221829,0,0.941092,47.055
+zai-org/GLM-4.6V-Flash,selected_evidence_8px,temporal,30,0.035,0,0.72468,21.74

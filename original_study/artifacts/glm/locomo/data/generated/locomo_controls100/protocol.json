@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "protocol_version": "locomo-controls-v1",
+  "selection_seed": 20260826,
+  "question_count": 100,
+  "temporal_question_count": 30,
+  "control_conditions": [
+    "oracle_evidence_24px_temporal_fixed",
+    "selected_evidence_8px",
+    "selected_evidence_text",
+    "question_only",
+    "bm25_equal_vision_budget_text"
+  ],
+  "expected_calls_per_model": 430,
+  "default_models": [
+    "Qwen/Qwen3.5-2B",
+    "Qwen/Qwen3.5-9B"
+  ],
+  "optional_comprehensive_models": [
+    "Qwen/Qwen3.5-0.8B",
+    "Qwen/Qwen3.5-4B"
+  ],
+  "selected_evidence_policy": "Frozen LoCoMo evidence IDs with the source session/date heading added before retained turns; identical UTF-8 text feeds the 8px and text controls.",
+  "bm25": {
+    "unit": "individual dialogue turn with its source session/date heading",
+    "query": "question_only",
+    "k1": 1.5,
+    "b": 0.75,
+    "packing": "descending BM25 score until the per-model measured full-optical vision-token budget"
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 96
+  },
+  "render": {
+    "canvas": [
+      1372,
+      1372
+    ],
+    "margin": 24,
+    "selected_font_px": 8,
+    "temporal_oracle_font_px": 24
+  }
+}

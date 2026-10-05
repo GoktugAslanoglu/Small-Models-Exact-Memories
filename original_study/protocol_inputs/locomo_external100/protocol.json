@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "benchmark": "LoCoMo",
+  "source_url": "https://raw.githubusercontent.com/snap-research/locomo/main/data/locomo10.json",
+  "source_sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+  "license": "CC BY-NC 4.0",
+  "selection_seed": 20260826,
+  "question_count": 100,
+  "conversation_count": 10,
+  "categories": {
+    "single_hop": 50,
+    "temporal": 30,
+    "multi_hop": 20
+  },
+  "per_conversation": {
+    "single_hop": 5,
+    "temporal": 3,
+    "multi_hop": 2
+  },
+  "excluded_categories": [
+    "open_domain",
+    "adversarial"
+  ],
+  "conditions": [
+    "full_raw_text",
+    "session_summary_text",
+    "full_optical_8px",
+    "oracle_evidence_24px"
+  ],
+  "models_in_order": [
+    "Qwen/Qwen3.5-2B",
+    "Qwen/Qwen3.5-9B"
+  ],
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 96
+  },
+  "render": {
+    "canvas": [
+      1372,
+      1372
+    ],
+    "margin": 24,
+    "full_font_px": 8,
+    "oracle_font_px": 24
+  }
+}

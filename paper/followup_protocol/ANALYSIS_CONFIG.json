@@ -1,0 +1,52 @@
+{
+  "H1": {
+    "alternative": "greater",
+    "contrast": [
+      "retrieved_optical_8px",
+      "full_optical_c2"
+    ],
+    "metric": "canonical_answer_f1",
+    "test": "exact enumeration of 1024 conversation sign flips"
+  },
+  "H2": {
+    "contrast": [
+      "retrieved_optical_8px",
+      "retrieved_text"
+    ],
+    "equivalence_margin": 0.03,
+    "metric": "canonical_answer_f1",
+    "role": "secondary estimate",
+    "rule": "95 percent interval wholly inside [-0.03,0.03]"
+  },
+  "bootstrap_replicates": 50000,
+  "coverage_source": "iclr/v2/GENERATION_CONTRACT.json",
+  "interval": {
+    "clusters": 10,
+    "confidence": 0.95,
+    "method": "paired percentile bootstrap",
+    "unit": "conversation",
+    "weights": "equal conversation means"
+  },
+  "multiplicity": {
+    "alpha": 0.05,
+    "family": "H1 and H3 for all three readers; six tests",
+    "final_decision_requires_all_six_pvalues": true,
+    "method": "Holm"
+  },
+  "protocol": "iclr-2027-v2",
+  "raw_predictions_immutable": true,
+  "scoring_enabled_before_unblinding": false,
+  "secondary": [
+    "pooled question raw-native F1",
+    "category scores",
+    "leave-one-conversation-out sensitivity",
+    "both matched text contrasts",
+    "full raw versus full optical"
+  ],
+  "statistics_seed": 2026090505,
+  "status": "frozen",
+  "unblinding_requires": [
+    "ruler scientific freeze",
+    "identifier scientific freeze"
+  ]
+}

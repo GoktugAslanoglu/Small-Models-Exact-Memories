@@ -1,0 +1,82 @@
+[
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.01218,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.573848,
+    "total_latency_seconds": 157.385
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.040347,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.683162,
+    "total_latency_seconds": 33.663
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.008221,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.619474,
+    "total_latency_seconds": 80.974
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.0,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.42493,
+    "total_latency_seconds": 42.748
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.085559,
+    "normalized_exact_match_rate": 0.04,
+    "mean_latency_seconds": 3.950157,
+    "total_latency_seconds": 395.016
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.049524,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 3.877278,
+    "total_latency_seconds": 77.546
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.132513,
+    "normalized_exact_match_rate": 0.08,
+    "mean_latency_seconds": 4.00054,
+    "total_latency_seconds": 200.027
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.031326,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 3.914773,
+    "total_latency_seconds": 117.443
+  }
+]

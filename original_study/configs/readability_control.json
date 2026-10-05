@@ -1,0 +1,22 @@
+{
+  "seed": 20260826,
+  "samples_per_type": 1,
+  "target_chars": 36000,
+  "output": "data/generated/readability_check.jsonl",
+  "render": {
+    "output_dir": "renders/generated/readability_control",
+    "canvas_width": 2044,
+    "canvas_height": 2044,
+    "margin": 28,
+    "preferred_max_pages": 8,
+    "min_font_size": 3,
+    "max_font_size": 16,
+    "strip_fraction": 0.22,
+    "strip_min_font_size": 3,
+    "strip_max_font_size": 16,
+    "compression_targets": [1],
+    "exactstrip_targets": [],
+    "pixels_per_vision_token": 784,
+    "chars_per_text_token_estimate": 4.0
+  }
+}

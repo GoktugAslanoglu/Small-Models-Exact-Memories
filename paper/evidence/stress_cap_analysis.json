@@ -1,0 +1,60 @@
+{
+  "role": "conditional descriptive cap sensitivity, not replacement primary outcomes",
+  "readers": {
+    "Qwen2B": {
+      "fixed_capped_n": 126,
+      "prefix96_mismatches": 0,
+      "still_capped_256": 22,
+      "capped_subset_question_mean_old": 0.0675886305649253,
+      "capped_subset_question_mean_new": 0.07258307896423977,
+      "full_500_conversation_macro_old": 0.0983781801312874,
+      "full_500_conversation_macro_sensitivity": 0.09988905723673884,
+      "macro_change": 0.0015108771054514498,
+      "paired_conversation_bootstrap_ci95": [
+        -9.818006496525609e-06,
+        0.0033152283702602703
+      ],
+      "absolute_change_at_least_3_points": false,
+      "conversation_changes": {
+        "conv-26": -0.0023025988542673542,
+        "conv-30": 0.002592186998142093,
+        "conv-41": 0.0016118392414825322,
+        "conv-42": -0.0005983165768073673,
+        "conv-43": 0.0028782576991464998,
+        "conv-44": 0.0018975753016339941,
+        "conv-47": 0.00015529599400052052,
+        "conv-48": -0.000617943262456927,
+        "conv-49": 0.008184685985692025,
+        "conv-50": 0.0013077885279484808
+      }
+    },
+    "Qwen9B": {
+      "fixed_capped_n": 121,
+      "prefix96_mismatches": 0,
+      "still_capped_256": 8,
+      "capped_subset_question_mean_old": 0.09655480287864925,
+      "capped_subset_question_mean_new": 0.101096816477348,
+      "full_500_conversation_macro_old": 0.15951386964312397,
+      "full_500_conversation_macro_sensitivity": 0.16098018669743788,
+      "macro_change": 0.0014663170543138871,
+      "paired_conversation_bootstrap_ci95": [
+        -0.0003645514677669121,
+        0.0033396021211478813
+      ],
+      "absolute_change_at_least_3_points": false,
+      "conversation_changes": {
+        "conv-26": -0.0015242163851096335,
+        "conv-30": 0.004640686649682146,
+        "conv-41": -0.002095420178134161,
+        "conv-42": -0.0007547649482381458,
+        "conv-43": -0.00107290127994851,
+        "conv-44": 0.005593660190552657,
+        "conv-47": 0.0035017054303394107,
+        "conv-48": -0.0017116858557571224,
+        "conv-49": 0.004865377430831291,
+        "conv-50": 0.003220729488920937
+      }
+    }
+  },
+  "interpretation": "Any prefix mismatch requires execution-plus-cap interpretation; no selective exclusions. Continuing caps make small changes inconclusive. No further cap increase."
+}

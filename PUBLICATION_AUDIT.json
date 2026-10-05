@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "files": 337,
+  "total_bytes_excluding_audit_reports": 54831455,
+  "largest_file": {
+    "path": "paper/evidence/followup_scored_rows.jsonl",
+    "bytes": 11702204
+  },
+  "credential_pattern_matches": 0,
+  "weights_or_private_archive_files": 0,
+  "unrelated_retrieval_rows_excluded": 4176,
+  "source_archives_modified": false,
+  "scan_note": "Automated filename/credential-pattern/size/hash checks plus paper-specific selection; not a guarantee against every possible secret or privacy issue."
+}

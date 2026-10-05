@@ -1,0 +1,322 @@
+[
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.027016,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 2.720507,
+    "total_latency_seconds": 272.051
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.08497,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 3.335322,
+    "total_latency_seconds": 66.706
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.020045,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 2.900573,
+    "total_latency_seconds": 145.029
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_optical_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.0,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 2.01052,
+    "total_latency_seconds": 60.316
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_raw_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.383713,
+    "normalized_exact_match_rate": 0.15,
+    "mean_latency_seconds": 3.682499,
+    "total_latency_seconds": 368.25
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_raw_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.287972,
+    "normalized_exact_match_rate": 0.05,
+    "mean_latency_seconds": 4.372061,
+    "total_latency_seconds": 87.441
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_raw_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.497286,
+    "normalized_exact_match_rate": 0.26,
+    "mean_latency_seconds": 3.677104,
+    "total_latency_seconds": 183.855
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "full_raw_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.258254,
+    "normalized_exact_match_rate": 0.033333,
+    "mean_latency_seconds": 3.231784,
+    "total_latency_seconds": 96.954
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.369232,
+    "normalized_exact_match_rate": 0.22,
+    "mean_latency_seconds": 0.757737,
+    "total_latency_seconds": 75.774
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.370498,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 0.797171,
+    "total_latency_seconds": 15.943
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.54036,
+    "normalized_exact_match_rate": 0.4,
+    "mean_latency_seconds": 0.82215,
+    "total_latency_seconds": 41.107
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.083175,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.624092,
+    "total_latency_seconds": 18.723
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "session_summary_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.236368,
+    "normalized_exact_match_rate": 0.02,
+    "mean_latency_seconds": 1.320717,
+    "total_latency_seconds": 132.072
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "session_summary_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.24391,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.931558,
+    "total_latency_seconds": 38.631
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "session_summary_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.234743,
+    "normalized_exact_match_rate": 0.04,
+    "mean_latency_seconds": 1.29688,
+    "total_latency_seconds": 64.844
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "session_summary_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.234048,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.953216,
+    "total_latency_seconds": 28.596
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.098531,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 7.199894,
+    "total_latency_seconds": 719.989
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.113705,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 7.504217,
+    "total_latency_seconds": 150.084
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.131486,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 6.802629,
+    "total_latency_seconds": 340.131
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_optical_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.033489,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 7.659121,
+    "total_latency_seconds": 229.774
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_raw_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.410415,
+    "normalized_exact_match_rate": 0.11,
+    "mean_latency_seconds": 6.916016,
+    "total_latency_seconds": 691.602
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_raw_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.334821,
+    "normalized_exact_match_rate": 0.05,
+    "mean_latency_seconds": 8.170934,
+    "total_latency_seconds": 163.419
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_raw_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.561374,
+    "normalized_exact_match_rate": 0.2,
+    "mean_latency_seconds": 6.681818,
+    "total_latency_seconds": 334.091
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "full_raw_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.209212,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 6.469734,
+    "total_latency_seconds": 194.092
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.453516,
+    "normalized_exact_match_rate": 0.25,
+    "mean_latency_seconds": 1.087998,
+    "total_latency_seconds": 108.8
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.464662,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 1.372827,
+    "total_latency_seconds": 27.457
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.671262,
+    "normalized_exact_match_rate": 0.46,
+    "mean_latency_seconds": 1.097287,
+    "total_latency_seconds": 54.864
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "oracle_evidence_24px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.083175,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.882632,
+    "total_latency_seconds": 26.479
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "session_summary_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.180774,
+    "normalized_exact_match_rate": 0.04,
+    "mean_latency_seconds": 1.68863,
+    "total_latency_seconds": 168.863
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "session_summary_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.233656,
+    "normalized_exact_match_rate": 0.05,
+    "mean_latency_seconds": 2.680311,
+    "total_latency_seconds": 53.606
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "session_summary_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.169197,
+    "normalized_exact_match_rate": 0.06,
+    "mean_latency_seconds": 1.463828,
+    "total_latency_seconds": 73.191
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "session_summary_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.164815,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.40218,
+    "total_latency_seconds": 42.065
+  }
+]

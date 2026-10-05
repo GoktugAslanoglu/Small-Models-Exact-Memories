@@ -1,0 +1,60 @@
+{
+  "study": "identifier-layout-followup-v1",
+  "status": "prospective new follow-up; technical readiness pending native CPU preflight",
+  "source_tokens": 8192,
+  "source_token_tolerance": 32,
+  "distractors": 4,
+  "development_seed": 2026092102,
+  "evaluation_seed": 2026092103,
+  "order_seed": 2026092104,
+  "statistics_seed": 2026092105,
+  "inference_seed": 2026090506,
+  "dev_cases": 12,
+  "eval_cases": 48,
+  "dev_calls": 36,
+  "eval_calls": 576,
+  "max_new_tokens": 64,
+  "compression_target": 2,
+  "compression_relative_tolerance": 0.1,
+  "matched_arm_total_input_difference": 0,
+  "pages": 4,
+  "readable_min_font_em_processor_pixels": 16,
+  "readable_success_em_threshold": 0.75,
+  "raw_control_em_threshold": 0.875,
+  "font_size": 12,
+  "layouts": [
+    "L1_fullwidth_charwrap",
+    "L2_twocolumn_wordwrap",
+    "L3_fullwidth_wordwrap"
+  ],
+  "models": {
+    "Qwen2B": "Qwen/Qwen3.5-2B",
+    "Qwen9B": "Qwen/Qwen3.5-9B",
+    "GLM": "zai-org/GLM-4.6V-Flash"
+  },
+  "dev_model": "Qwen2B",
+  "max_gpu_seconds_per_stage": 7200,
+  "max_gpu_stages": 6,
+  "max_total_gpu_seconds": 43200,
+  "selection": [
+    "all dev requests valid",
+    "maximum development EM",
+    "maximum median minimum page effective font em height",
+    "maximum median maximum text width fraction",
+    "lexicographic layout ID"
+  ],
+  "eval_arms": [
+    "full_raw",
+    "original_c2_p4",
+    "efficient_c2_p4",
+    "readable_p4"
+  ],
+  "primary_test": "two-sided exact McNemar, Holm over three readers",
+  "primary_effect": "paired mean EM efficient C2 minus original C2",
+  "bootstrap": "50000 paired case resamples within 24 two-instance factor cells",
+  "no_output_based_case_replacement": true,
+  "readable_min_ascii_alphanumeric_glyph_height_processor_pixels": 10,
+  "legibility_geometry_uses_reference_answer": false,
+  "gpu_work_cutoff_seconds": 6900,
+  "export_reserve_seconds": 300
+}

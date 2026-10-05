@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "experiment": "qwen35_9b_balanced18_uniform_main",
+  "experiment_role": "frozen cross-model baseline comparison",
+  "created_utc": "2026-08-27T22:14:16.514653+00:00",
+  "model": "Qwen/Qwen3.5-9B",
+  "seed": 20260826,
+  "decode": {
+    "do_sample": false,
+    "max_new_tokens": 64,
+    "use_cache": true
+  },
+  "required_gpu_substring": "A100",
+  "runtime": {
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "gpu_vram_gib": 39.494,
+    "torch_version": "2.11.0+cu128",
+    "cuda_version": "12.8",
+    "python_version": "3.13.15",
+    "transformers_version": "5.16.0.dev0",
+    "torchvision_version": "0.26.0+cu128"
+  },
+  "conditions": [
+    "full_history_12px_2044x2044",
+    "full_history_10px_1708x1708",
+    "full_history_8px_1372x1372",
+    "full_history_6px_1036x1036",
+    "raw_text"
+  ],
+  "target_effective_font_sizes_px": [
+    12,
+    10,
+    8,
+    6
+  ],
+  "expected_calls": {
+    "optical": 72,
+    "raw": 18,
+    "total": 90
+  },
+  "latency_note": "latency_seconds is synchronized single-pass model inference timing; it is descriptive, not a dedicated repeated latency benchmark",
+  "sha256": {
+    "data/generated/balanced18.jsonl": "bb3d0b5f6f9d2b02619b21105805069504a90abaa3438b00e1d44542151d70ea",
+    "renders/generated/balanced18_controls/render_manifest.jsonl": "abc4f98ff5d7d7efd67c9dba4b2f62e57ee4cec91ada41269ab80f1135ccaeed",
+    "renders/generated/balanced18_sweep/render_manifest.jsonl": "799a451d1fbf8ac3664b61a38a4b2d196b4448255597d9065387a6dcd32d7111",
+    "results/qwen35_9b_balanced18_optical_main.jsonl": "1f1a07070e134099de3d89f3c4aa2eaacf712f0533d341d7337a837db75e2367",
+    "results/qwen35_9b_balanced18_raw_main.jsonl": "c7f40df489777b5f69053e8d158b198ac7de78d8d6ce15bfd5035af0b3950a08",
+    "results/qwen35_9b_balanced18_combined_main.jsonl": "cfd4932ebeaf0d953595754ed8632abf9e26a7e20fcb10dcf0bfa43292e29194"
+  }
+}

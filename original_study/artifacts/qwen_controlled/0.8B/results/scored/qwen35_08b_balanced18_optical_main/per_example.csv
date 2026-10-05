@@ -1,0 +1,154 @@
+answer,condition,episode_id,generated_tokens,gpu_name,grid_vision_tokens,image_height,image_width,latency_seconds,memory_type,model,position_bucket,prediction,question,realized_compression,render_kind,schema_version,scoring,target_compression,text_tokens,torch_dtype,vision_tokens,clean_prediction,exact_match,cer,token_f1
+rolling,full_history_12px_2044x2044,semantic_decision-000,11,NVIDIA A100-SXM4-40GB,16384,2044,2044,5.231172,semantic_decision,Qwen/Qwen3.5-0.8B,early,"sem-00-0yimxc
+",What final deployment strategy was approved for experiment sem-00-0yimxc? Return only the strategy name.,0.43396,uniform,1,semantic,0,7110,bfloat16,16384,sem-00-0yimxc,0.0,1.7142857142857142,0.0
+rolling,full_history_12px_2044x2044,semantic_decision-001,11,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.53098,semantic_decision,Qwen/Qwen3.5-0.8B,middle,"sem-01-u8udjk
+",What final deployment strategy was approved for experiment sem-01-u8udjk? Return only the strategy name.,0.433899,uniform,1,semantic,0,7109,bfloat16,16384,sem-01-u8udjk,0.0,1.8571428571428572,0.0
+shadow,full_history_12px_2044x2044,semantic_decision-002,19,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.867464,semantic_decision,Qwen/Qwen3.5-0.8B,late,"The final deployment strategy for sem-02-zkb8ua is shadow.
+",What final deployment strategy was approved for experiment sem-02-zkb8ua? Return only the strategy name.,0.434387,uniform,1,semantic,0,7117,bfloat16,16384,The final deployment strategy for sem-02-zkb8ua is shadow.,0.0,8.666666666666666,0.0
+5473,full_history_12px_2044x2044,numeric_state-002,7,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.327458,numeric_state,Qwen/Qwen3.5-0.8B,early,"5473
+",Return the exact authoritative_deployment_port for experiment num-03-zll8jw.,0.434753,uniform,1,exact,0,7123,bfloat16,16384,5473,1.0,0.0,1.0
+8247,full_history_12px_2044x2044,numeric_state-000,7,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.335467,numeric_state,Qwen/Qwen3.5-0.8B,middle,"8247
+",Return the exact authoritative_deployment_port for experiment num-01-0o5prm.,0.434387,uniform,1,exact,0,7117,bfloat16,16384,8247,1.0,0.0,1.0
+4200,full_history_12px_2044x2044,numeric_state-001,7,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.360518,numeric_state,Qwen/Qwen3.5-0.8B,late,"4200
+",Return the exact authoritative_deployment_port for experiment num-02-xlif58.,0.435181,uniform,1,exact,0,7130,bfloat16,16384,4200,1.0,0.0,1.0
+8fe2926d8f64708e,full_history_12px_2044x2044,high_entropy_identifier-001,18,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.826013,high_entropy_identifier,Qwen/Qwen3.5-0.8B,early,"8fe2926d8f64708e
+",Return the exact authoritative_rollback_sha for experiment hig-03-0gpc0w.,0.438354,uniform,1,exact,0,7182,bfloat16,16384,8fe2926d8f64708e,1.0,0.0,1.0
+675038b6e680e45e,full_history_12px_2044x2044,high_entropy_identifier-002,18,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.822679,high_entropy_identifier,Qwen/Qwen3.5-0.8B,middle,"675038bb6e68045e
+",Return the exact authoritative_rollback_sha for experiment hig-04-kcq60y.,0.438538,uniform,1,exact,0,7185,bfloat16,16384,675038bb6e68045e,0.0,0.125,0.0
+0fbc2886eadd3870,full_history_12px_2044x2044,high_entropy_identifier-000,16,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.739474,high_entropy_identifier,Qwen/Qwen3.5-0.8B,late,"0fbc2886eadd3870
+",Return the exact authoritative_rollback_sha for experiment hig-02-pvk75n.,0.437439,uniform,1,exact,0,7167,bfloat16,16384,0fbc2886eadd3870,1.0,0.0,1.0
+/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors,full_history_12px_2044x2044,symbol_path-000,31,NVIDIA A100-SXM4-40GB,16384,2044,2044,3.373964,symbol_path,Qwen/Qwen3.5-0.8B,early,"/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-03-3np7ru.,0.44043,uniform,1,exact,0,7216,bfloat16,16384,/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors,1.0,0.0,1.0
+/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,full_history_12px_2044x2044,symbol_path-001,33,NVIDIA A100-SXM4-40GB,16384,2044,2044,3.469006,symbol_path,Qwen/Qwen3.5-0.8B,middle,"/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-04-ww1i21.,0.440735,uniform,1,exact,0,7221,bfloat16,16384,/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,1.0,0.0,1.0
+/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors,full_history_12px_2044x2044,symbol_path-002,32,NVIDIA A100-SXM4-40GB,16384,2044,2044,3.460827,symbol_path,Qwen/Qwen3.5-0.8B,late,"/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-05-0yzodq.,0.441162,uniform,1,exact,0,7228,bfloat16,16384,/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors,1.0,0.0,1.0
+1.25e-3,full_history_12px_2044x2044,structured_config-002,10,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.483444,structured_config,Qwen/Qwen3.5-0.8B,early,"1.25e-3
+",Return the exact authoritative_learning_rate string for experiment str-06-eidrf3.,0.434875,uniform,1,exact,0,7125,bfloat16,16384,1.25e-3,1.0,0.0,1.0
+0.03125,full_history_12px_2044x2044,structured_config-000,10,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.467356,structured_config,Qwen/Qwen3.5-0.8B,middle,"0.03125
+",Return the exact authoritative_learning_rate string for experiment str-04-2pq2to.,0.43512,uniform,1,exact,0,7129,bfloat16,16384,0.03125,1.0,0.0,1.0
+0.03125,full_history_12px_2044x2044,structured_config-001,10,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.483663,structured_config,Qwen/Qwen3.5-0.8B,late,"0.03125
+",Return the exact authoritative_learning_rate string for experiment str-05-0zhbm2.,0.435486,uniform,1,exact,0,7135,bfloat16,16384,0.03125,1.0,0.0,1.0
+ERR_CACHE_SYNC_83CF8BCD,full_history_12px_2044x2044,code_tool_state-001,13,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.612493,code_tool_state,Qwen/Qwen3.5-0.8B,early,"ERR_CACHE_SYNC_83CF8BCD
+",Return the exact authoritative_terminal_error for experiment cod-06-bzkl3z.,0.436218,uniform,1,exact,0,7147,bfloat16,16384,ERR_CACHE_SYNC_83CF8BCD,1.0,0.0,1.0
+ERR_CACHE_SYNC_91666A27,full_history_12px_2044x2044,code_tool_state-002,15,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.679773,code_tool_state,Qwen/Qwen3.5-0.8B,middle,"ERR_CACHE_SYNC_91666A27
+",Return the exact authoritative_terminal_error for experiment cod-07-pnp668.,0.435791,uniform,1,exact,0,7140,bfloat16,16384,ERR_CACHE_SYNC_91666A27,1.0,0.0,1.0
+ERR_CACHE_SYNC_84629292,full_history_12px_2044x2044,code_tool_state-000,5,NVIDIA A100-SXM4-40GB,16384,2044,2044,2.246079,code_tool_state,Qwen/Qwen3.5-0.8B,late,"73
+",Return the exact authoritative_terminal_error for experiment cod-05-4mvsb6.,0.437134,uniform,1,exact,0,7162,bfloat16,16384,73,0.0,1.0,0.0
+rolling,full_history_10px_1708x1708,semantic_decision-000,11,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.847615,semantic_decision,Qwen/Qwen3.5-0.8B,early,"sem-00-0yimxc
+",What final deployment strategy was approved for experiment sem-00-0yimxc? Return only the strategy name.,0.632787,uniform,1,semantic,0,7110,bfloat16,11236,sem-00-0yimxc,0.0,1.7142857142857142,0.0
+rolling,full_history_10px_1708x1708,semantic_decision-001,11,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.847998,semantic_decision,Qwen/Qwen3.5-0.8B,middle,"sem-01-u8udjk
+",What final deployment strategy was approved for experiment sem-01-u8udjk? Return only the strategy name.,0.632698,uniform,1,semantic,0,7109,bfloat16,11236,sem-01-u8udjk,0.0,1.8571428571428572,0.0
+shadow,full_history_10px_1708x1708,semantic_decision-002,19,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.174685,semantic_decision,Qwen/Qwen3.5-0.8B,late,"The final deployment strategy for sem-02-zkb8ua is shadow.
+",What final deployment strategy was approved for experiment sem-02-zkb8ua? Return only the strategy name.,0.63341,uniform,1,semantic,0,7117,bfloat16,11236,The final deployment strategy for sem-02-zkb8ua is shadow.,0.0,8.666666666666666,0.0
+5473,full_history_10px_1708x1708,numeric_state-002,7,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.667209,numeric_state,Qwen/Qwen3.5-0.8B,early,"5473
+",Return the exact authoritative_deployment_port for experiment num-03-zll8jw.,0.633944,uniform,1,exact,0,7123,bfloat16,11236,5473,1.0,0.0,1.0
+8247,full_history_10px_1708x1708,numeric_state-000,7,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.664879,numeric_state,Qwen/Qwen3.5-0.8B,middle,"8247
+",Return the exact authoritative_deployment_port for experiment num-01-0o5prm.,0.63341,uniform,1,exact,0,7117,bfloat16,11236,8247,1.0,0.0,1.0
+4200,full_history_10px_1708x1708,numeric_state-001,7,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.667897,numeric_state,Qwen/Qwen3.5-0.8B,late,"4200
+",Return the exact authoritative_deployment_port for experiment num-02-xlif58.,0.634567,uniform,1,exact,0,7130,bfloat16,11236,4200,1.0,0.0,1.0
+8fe2926d8f64708e,full_history_10px_1708x1708,high_entropy_identifier-001,18,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.140785,high_entropy_identifier,Qwen/Qwen3.5-0.8B,early,"8fe2926dd8f64708e
+",Return the exact authoritative_rollback_sha for experiment hig-03-0gpc0w.,0.639195,uniform,1,exact,0,7182,bfloat16,11236,8fe2926dd8f64708e,0.0,0.0625,0.0
+675038b6e680e45e,full_history_10px_1708x1708,high_entropy_identifier-002,19,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.18056,high_entropy_identifier,Qwen/Qwen3.5-0.8B,middle,"675038b6e680e45e
+",Return the exact authoritative_rollback_sha for experiment hig-04-kcq60y.,0.639462,uniform,1,exact,0,7185,bfloat16,11236,675038b6e680e45e,1.0,0.0,1.0
+0fbc2886eadd3870,full_history_10px_1708x1708,high_entropy_identifier-000,16,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.051133,high_entropy_identifier,Qwen/Qwen3.5-0.8B,late,"0fbc2886eadd3870
+",Return the exact authoritative_rollback_sha for experiment hig-02-pvk75n.,0.63786,uniform,1,exact,0,7167,bfloat16,11236,0fbc2886eadd3870,1.0,0.0,1.0
+/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors,full_history_10px_1708x1708,symbol_path-000,31,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.684926,symbol_path,Qwen/Qwen3.5-0.8B,early,"/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-03-3np7ru.,0.642221,uniform,1,exact,0,7216,bfloat16,11236,/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors,1.0,0.0,1.0
+/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,full_history_10px_1708x1708,symbol_path-001,33,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.779677,symbol_path,Qwen/Qwen3.5-0.8B,middle,"/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-04-ww1i21.,0.642666,uniform,1,exact,0,7221,bfloat16,11236,/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,1.0,0.0,1.0
+/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors,full_history_10px_1708x1708,symbol_path-002,32,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.796974,symbol_path,Qwen/Qwen3.5-0.8B,late,"/srv/checkpoints/sym-05-0yzodq/v75/model-879988.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-05-0yzodq.,0.643289,uniform,1,exact,0,7228,bfloat16,11236,/srv/checkpoints/sym-05-0yzodq/v75/model-879988.safetensors,0.0,0.03389830508474576,0.0
+1.25e-3,full_history_10px_1708x1708,structured_config-002,10,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.821075,structured_config,Qwen/Qwen3.5-0.8B,early,"1.25e-3
+",Return the exact authoritative_learning_rate string for experiment str-06-eidrf3.,0.634122,uniform,1,exact,0,7125,bfloat16,11236,1.25e-3,1.0,0.0,1.0
+0.03125,full_history_10px_1708x1708,structured_config-000,12,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.886932,structured_config,Qwen/Qwen3.5-0.8B,middle,"""0.03125""
+",Return the exact authoritative_learning_rate string for experiment str-04-2pq2to.,0.634478,uniform,1,exact,0,7129,bfloat16,11236,0.03125,1.0,0.0,1.0
+0.03125,full_history_10px_1708x1708,structured_config-001,10,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.801332,structured_config,Qwen/Qwen3.5-0.8B,late,"0.03125
+",Return the exact authoritative_learning_rate string for experiment str-05-0zhbm2.,0.635012,uniform,1,exact,0,7135,bfloat16,11236,0.03125,1.0,0.0,1.0
+ERR_CACHE_SYNC_83CF8BCD,full_history_10px_1708x1708,code_tool_state-001,13,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.938812,code_tool_state,Qwen/Qwen3.5-0.8B,early,"ERR_CACHE_SYNC_83CFB8CD
+",Return the exact authoritative_terminal_error for experiment cod-06-bzkl3z.,0.63608,uniform,1,exact,0,7147,bfloat16,11236,ERR_CACHE_SYNC_83CFB8CD,0.0,0.08695652173913043,0.0
+ERR_CACHE_SYNC_91666A27,full_history_10px_1708x1708,code_tool_state-002,15,NVIDIA A100-SXM4-40GB,11236,1708,1708,1.999744,code_tool_state,Qwen/Qwen3.5-0.8B,middle,"ERR_CACHE_SYNC_91666A27
+",Return the exact authoritative_terminal_error for experiment cod-07-pnp668.,0.635457,uniform,1,exact,0,7140,bfloat16,11236,ERR_CACHE_SYNC_91666A27,1.0,0.0,1.0
+ERR_CACHE_SYNC_84629292,full_history_10px_1708x1708,code_tool_state-000,15,NVIDIA A100-SXM4-40GB,11236,1708,1708,2.013378,code_tool_state,Qwen/Qwen3.5-0.8B,late,"ERR_CACHE_SYNC_84629292
+",Return the exact authoritative_terminal_error for experiment cod-05-4mvsb6.,0.637415,uniform,1,exact,0,7162,bfloat16,11236,ERR_CACHE_SYNC_84629292,1.0,0.0,1.0
+rolling,full_history_8px_1372x1372,semantic_decision-000,11,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.406376,semantic_decision,Qwen/Qwen3.5-0.8B,early,"sem-00-0yimxc
+",What final deployment strategy was approved for experiment sem-00-0yimxc? Return only the strategy name.,0.96133,uniform,1,semantic,0,7110,bfloat16,7396,sem-00-0yimxc,0.0,1.7142857142857142,0.0
+rolling,full_history_8px_1372x1372,semantic_decision-001,11,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.399307,semantic_decision,Qwen/Qwen3.5-0.8B,middle,"sem-01-u8udjk
+",What final deployment strategy was approved for experiment sem-01-u8udjk? Return only the strategy name.,0.961195,uniform,1,semantic,0,7109,bfloat16,7396,sem-01-u8udjk,0.0,1.8571428571428572,0.0
+shadow,full_history_8px_1372x1372,semantic_decision-002,20,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.804647,semantic_decision,Qwen/Qwen3.5-0.8B,late,"The final deployment strategy for experiment sem-02-zkb8ua was shadow.
+",What final deployment strategy was approved for experiment sem-02-zkb8ua? Return only the strategy name.,0.962277,uniform,1,semantic,0,7117,bfloat16,7396,The final deployment strategy for experiment sem-02-zkb8ua was shadow.,0.0,10.666666666666666,0.0
+5473,full_history_8px_1372x1372,numeric_state-002,7,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.255043,numeric_state,Qwen/Qwen3.5-0.8B,early,"5473
+",Return the exact authoritative_deployment_port for experiment num-03-zll8jw.,0.963088,uniform,1,exact,0,7123,bfloat16,7396,5473,1.0,0.0,1.0
+8247,full_history_8px_1372x1372,numeric_state-000,7,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.233115,numeric_state,Qwen/Qwen3.5-0.8B,middle,"2427
+",Return the exact authoritative_deployment_port for experiment num-01-0o5prm.,0.962277,uniform,1,exact,0,7117,bfloat16,7396,2427,0.0,0.5,0.0
+4200,full_history_8px_1372x1372,numeric_state-001,7,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.229648,numeric_state,Qwen/Qwen3.5-0.8B,late,"4200
+",Return the exact authoritative_deployment_port for experiment num-02-xlif58.,0.964035,uniform,1,exact,0,7130,bfloat16,7396,4200,1.0,0.0,1.0
+8fe2926d8f64708e,full_history_8px_1372x1372,high_entropy_identifier-001,15,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.57645,high_entropy_identifier,Qwen/Qwen3.5-0.8B,early,"8fe2926df6470e
+",Return the exact authoritative_rollback_sha for experiment hig-03-0gpc0w.,0.971065,uniform,1,exact,0,7182,bfloat16,7396,8fe2926df6470e,0.0,0.125,0.0
+675038b6e680e45e,full_history_8px_1372x1372,high_entropy_identifier-002,19,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.775772,high_entropy_identifier,Qwen/Qwen3.5-0.8B,middle,"765038b6e6804e5e
+",Return the exact authoritative_rollback_sha for experiment hig-04-kcq60y.,0.971471,uniform,1,exact,0,7185,bfloat16,7396,765038b6e6804e5e,0.0,0.25,0.0
+0fbc2886eadd3870,full_history_8px_1372x1372,high_entropy_identifier-000,16,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.619934,high_entropy_identifier,Qwen/Qwen3.5-0.8B,late,"0fbc2886eadd3170
+",Return the exact authoritative_rollback_sha for experiment hig-02-pvk75n.,0.969037,uniform,1,exact,0,7167,bfloat16,7396,0fbc2886eadd3170,0.0,0.0625,0.0
+/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors,full_history_8px_1372x1372,symbol_path-000,32,NVIDIA A100-SXM4-40GB,7396,1372,1372,2.356593,symbol_path,Qwen/Qwen3.5-0.8B,early,"/srv/checkpoints/sym-03-3np7ru/v47/model-c92a212.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-03-3np7ru.,0.975663,uniform,1,exact,0,7216,bfloat16,7396,/srv/checkpoints/sym-03-3np7ru/v47/model-c92a212.safetensors,0.0,0.01694915254237288,0.0
+/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,full_history_8px_1372x1372,symbol_path-001,32,NVIDIA A100-SXM4-40GB,7396,1372,1372,2.3023,symbol_path,Qwen/Qwen3.5-0.8B,middle,"srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-04-ww1i21.,0.976339,uniform,1,exact,0,7221,bfloat16,7396,srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,0.0,0.01694915254237288,0.0
+/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors,full_history_8px_1372x1372,symbol_path-002,50,NVIDIA A100-SXM4-40GB,7396,1372,1372,3.080018,symbol_path,Qwen/Qwen3.5-0.8B,late,"The exact authoritative_checkpoint_path for experiment sym-05-0yzodq is /srv/checkpoints/sym-05-0yzodq/v74/model-879898.safetensors.
+",Return the exact authoritative_checkpoint_path for experiment sym-05-0yzodq.,0.977285,uniform,1,exact,0,7228,bfloat16,7396,The exact authoritative_checkpoint_path for experiment sym-05-0yzodq is /srv/checkpoints/sym-05-0yzodq/v74/model-879898.safetensors.,0.0,1.2542372881355932,0.0
+1.25e-3,full_history_8px_1372x1372,structured_config-002,16,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.642079,structured_config,Qwen/Qwen3.5-0.8B,early,"authoritative_learning_rate: 1.25e-3
+",Return the exact authoritative_learning_rate string for experiment str-06-eidrf3.,0.963359,uniform,1,exact,0,7125,bfloat16,7396,authoritative_learning_rate: 1.25e-3,0.0,4.142857142857143,0.6666666666666666
+0.03125,full_history_8px_1372x1372,structured_config-000,10,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.363725,structured_config,Qwen/Qwen3.5-0.8B,middle,"0.03125
+",Return the exact authoritative_learning_rate string for experiment str-04-2pq2to.,0.963899,uniform,1,exact,0,7129,bfloat16,7396,0.03125,1.0,0.0,1.0
+0.03125,full_history_8px_1372x1372,structured_config-001,10,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.381367,structured_config,Qwen/Qwen3.5-0.8B,late,"0.03125
+",Return the exact authoritative_learning_rate string for experiment str-05-0zhbm2.,0.964711,uniform,1,exact,0,7135,bfloat16,7396,0.03125,1.0,0.0,1.0
+ERR_CACHE_SYNC_83CF8BCD,full_history_8px_1372x1372,code_tool_state-001,14,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.532745,code_tool_state,Qwen/Qwen3.5-0.8B,early,"ERR_CACHE_SYNC_83CF8FBCD
+",Return the exact authoritative_terminal_error for experiment cod-06-bzkl3z.,0.966333,uniform,1,exact,0,7147,bfloat16,7396,ERR_CACHE_SYNC_83CF8FBCD,0.0,0.043478260869565216,0.0
+ERR_CACHE_SYNC_91666A27,full_history_8px_1372x1372,code_tool_state-002,15,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.575056,code_tool_state,Qwen/Qwen3.5-0.8B,middle,"ERR_CACHE_SYNC_91666A27
+",Return the exact authoritative_terminal_error for experiment cod-07-pnp668.,0.965387,uniform,1,exact,0,7140,bfloat16,7396,ERR_CACHE_SYNC_91666A27,1.0,0.0,1.0
+ERR_CACHE_SYNC_84629292,full_history_8px_1372x1372,code_tool_state-000,15,NVIDIA A100-SXM4-40GB,7396,1372,1372,1.575601,code_tool_state,Qwen/Qwen3.5-0.8B,late,"ERR_CACHE_SYNC_84629292
+",Return the exact authoritative_terminal_error for experiment cod-05-4mvsb6.,0.968361,uniform,1,exact,0,7162,bfloat16,7396,ERR_CACHE_SYNC_84629292,1.0,0.0,1.0
+rolling,full_history_6px_1036x1036,semantic_decision-000,11,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.047354,semantic_decision,Qwen/Qwen3.5-0.8B,early,"sem-00-0yimxc
+",What final deployment strategy was approved for experiment sem-00-0yimxc? Return only the strategy name.,1.73584,uniform,1,semantic,0,7110,bfloat16,4096,sem-00-0yimxc,0.0,1.7142857142857142,0.0
+rolling,full_history_6px_1036x1036,semantic_decision-001,11,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.047878,semantic_decision,Qwen/Qwen3.5-0.8B,middle,"sem-01-u8udjk
+",What final deployment strategy was approved for experiment sem-01-u8udjk? Return only the strategy name.,1.735596,uniform,1,semantic,0,7109,bfloat16,4096,sem-01-u8udjk,0.0,1.8571428571428572,0.0
+shadow,full_history_6px_1036x1036,semantic_decision-002,20,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.433879,semantic_decision,Qwen/Qwen3.5-0.8B,late,"The final deployment strategy for experiment sem-02-zkb8ua is shadow.
+",What final deployment strategy was approved for experiment sem-02-zkb8ua? Return only the strategy name.,1.737549,uniform,1,semantic,0,7117,bfloat16,4096,The final deployment strategy for experiment sem-02-zkb8ua is shadow.,0.0,10.5,0.0
+5473,full_history_6px_1036x1036,numeric_state-002,9,NVIDIA A100-SXM4-40GB,4096,1036,1036,0.968272,numeric_state,Qwen/Qwen3.5-0.8B,early,"447906
+",Return the exact authoritative_deployment_port for experiment num-03-zll8jw.,1.739014,uniform,1,exact,0,7123,bfloat16,4096,447906,0.0,1.0,0.0
+8247,full_history_6px_1036x1036,numeric_state-000,7,NVIDIA A100-SXM4-40GB,4096,1036,1036,0.881605,numeric_state,Qwen/Qwen3.5-0.8B,middle,"8437
+",Return the exact authoritative_deployment_port for experiment num-01-0o5prm.,1.737549,uniform,1,exact,0,7117,bfloat16,4096,8437,0.0,0.5,0.0
+4200,full_history_6px_1036x1036,numeric_state-001,7,NVIDIA A100-SXM4-40GB,4096,1036,1036,0.873151,numeric_state,Qwen/Qwen3.5-0.8B,late,"4294
+",Return the exact authoritative_deployment_port for experiment num-02-xlif58.,1.740723,uniform,1,exact,0,7130,bfloat16,4096,4294,0.0,0.5,0.0
+8fe2926d8f64708e,full_history_6px_1036x1036,high_entropy_identifier-001,15,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.21257,high_entropy_identifier,Qwen/Qwen3.5-0.8B,early,"8f0226d68470
+",Return the exact authoritative_rollback_sha for experiment hig-03-0gpc0w.,1.753418,uniform,1,exact,0,7182,bfloat16,4096,8f0226d68470,0.0,0.4375,0.0
+675038b6e680e45e,full_history_6px_1036x1036,high_entropy_identifier-002,14,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.177057,high_entropy_identifier,Qwen/Qwen3.5-0.8B,middle,"765018BDE640
+",Return the exact authoritative_rollback_sha for experiment hig-04-kcq60y.,1.75415,uniform,1,exact,0,7185,bfloat16,4096,765018BDE640,0.0,0.6875,0.0
+0fbc2886eadd3870,full_history_6px_1036x1036,high_entropy_identifier-000,14,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.166532,high_entropy_identifier,Qwen/Qwen3.5-0.8B,late,"0f0c28e6d87
+",Return the exact authoritative_rollback_sha for experiment hig-02-pvk75n.,1.749756,uniform,1,exact,0,7167,bfloat16,4096,0f0c28e6d87,0.0,0.4375,0.0
+/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors,full_history_6px_1036x1036,symbol_path-000,31,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.897862,symbol_path,Qwen/Qwen3.5-0.8B,early,"artifact_checkpoint_path=/srv/work/runs/03-3np7ru/model/c2a812/safetensors
+",Return the exact authoritative_checkpoint_path for experiment sym-03-3np7ru.,1.761719,uniform,1,exact,0,7216,bfloat16,4096,artifact_checkpoint_path=/srv/work/runs/03-3np7ru/model/c2a812/safetensors,0.0,0.6101694915254238,0.0
+/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors,full_history_6px_1036x1036,symbol_path-001,13,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.129273,symbol_path,Qwen/Qwen3.5-0.8B,middle,"sym-04-ww1i21
+",Return the exact authoritative_checkpoint_path for experiment sym-04-ww1i21.,1.762939,uniform,1,exact,0,7221,bfloat16,4096,sym-04-ww1i21,0.0,0.7796610169491526,0.0
+/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors,full_history_6px_1036x1036,symbol_path-002,63,NVIDIA A100-SXM4-40GB,4096,1036,1036,3.322161,symbol_path,Qwen/Qwen3.5-0.8B,late,"The image contains a verbatim rendering of earlier agent history. Answer: The exact authoritative_checkpoint_path for experiment sym-05-0yzodq is /srv/checkpoints/sym-05-0yzodq/v4/model-878988/safetensors.
+",Return the exact authoritative_checkpoint_path for experiment sym-05-0yzodq.,1.764648,uniform,1,exact,0,7228,bfloat16,4096,The image contains a verbatim rendering of earlier agent history. Answer: The exact authoritative_checkpoint_path for experiment sym-05-0yzodq is /srv/checkpoints/sym-05-0yzodq/v4/model-878988/safetensors.,0.0,2.5762711864406778,0.0
+1.25e-3,full_history_6px_1036x1036,structured_config-002,10,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.007009,structured_config,Qwen/Qwen3.5-0.8B,early,"1.25e-3
+",Return the exact authoritative_learning_rate string for experiment str-06-eidrf3.,1.739502,uniform,1,exact,0,7125,bfloat16,4096,1.25e-3,1.0,0.0,1.0
+0.03125,full_history_6px_1036x1036,structured_config-000,17,NVIDIA A100-SXM4-40GB,4096,1036,1036,1.299992,structured_config,Qwen/Qwen3.5-0.8B,middle,"Assistant: <think>
+
+</think>
+
+0.01315
+",Return the exact authoritative_learning_rate string for experiment str-04-2pq2to.,1.740479,uniform,1,exact,0,7129,bfloat16,4096,Assistant:,0.0,1.4285714285714286,0.0
+0.03125,full_history_6px_1036x1036,structured_config-001,9,NVIDIA A100-SXM4-40GB,4096,1036,1036,0.955878,structured_config,Qwen/Qwen3.5-0.8B,late,"0.0125
+",Return the exact authoritative_learning_rate string for experiment str-05-0zhbm2.,1.741943,uniform,1,exact,0,7135,bfloat16,4096,0.0125,0.0,0.14285714285714285,0.0
+ERR_CACHE_SYNC_83CF8BCD,full_history_6px_1036x1036,code_tool_state-001,48,NVIDIA A100-SXM4-40GB,4096,1036,1036,2.668165,code_tool_state,Qwen/Qwen3.5-0.8B,early,"The image contains a verbatim rendering of earlier agent history. Answer: The exact authoritative_terminal_error for experiment cod-06-bzkl3z is:
+```
+AUTHORITATIVE_TERMINAL_ERROR:
+```
+",Return the exact authoritative_terminal_error for experiment cod-06-bzkl3z.,1.744873,uniform,1,exact,0,7147,bfloat16,4096,The image contains a verbatim rendering of earlier agent history. Answer: The exact authoritative_terminal_error for experiment cod-06-bzkl3z is:,0.0,6.173913043478261,0.0
+ERR_CACHE_SYNC_91666A27,full_history_6px_1036x1036,code_tool_state-002,63,NVIDIA A100-SXM4-40GB,4096,1036,1036,3.332518,code_tool_state,Qwen/Qwen3.5-0.8B,middle,"The image contains a verbatim rendering of earlier agent history. Answer: The exact authoritative_terminal_error for experiment cod-07-pnp668 is:
+```
+AUTHORITATIVE_TERMINAL_ERROR: case = 'C0D-07-PNP668'
+```
+",Return the exact authoritative_terminal_error for experiment cod-07-pnp668.,1.743164,uniform,1,exact,0,7140,bfloat16,4096,The image contains a verbatim rendering of earlier agent history. Answer: The exact authoritative_terminal_error for experiment cod-07-pnp668 is:,0.0,6.086956521739131,0.0
+ERR_CACHE_SYNC_84629292,full_history_6px_1036x1036,code_tool_state-000,64,NVIDIA A100-SXM4-40GB,4096,1036,1036,3.33047,code_tool_state,Qwen/Qwen3.5-0.8B,late,ERR_CACHE_SYNC_00195890000000000000000000000000000000000000000000000000000,Return the exact authoritative_terminal_error for experiment cod-05-4mvsb6.,1.748535,uniform,1,exact,0,7162,bfloat16,4096,ERR_CACHE_SYNC_00195890000000000000000000000000000000000000000000000000000,0.0,2.5217391304347827,0.0

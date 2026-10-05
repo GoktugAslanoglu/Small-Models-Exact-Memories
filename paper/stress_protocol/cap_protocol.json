@@ -1,0 +1,21 @@
+{
+  "study": "LoCoMo-cap-post-unblinding-diagnostic",
+  "status": "scientific trigger met; conditional on completed identifier stages, available GPU allowance and time cutoff",
+  "readers": {
+    "Qwen2B": 126,
+    "Qwen9B": 121
+  },
+  "rows": 247,
+  "original_cap": 96,
+  "new_cap": 256,
+  "max_calls": 247,
+  "max_gpu_seconds_per_reader": 7200,
+  "earliest_execution": "after identifier stages",
+  "last_inference_day": "2026-09-23",
+  "changes_allowed": [
+    "max_new_tokens only"
+  ],
+  "material_macro_f1_change": 0.03,
+  "prefix_test": "Generated first 96 token IDs must match original IDs exactly. Report every mismatch; do not selectively remove it. If mismatches occur, label the comparison as execution-plus-cap sensitivity and do not attribute differences solely to the cap.",
+  "analysis": "All capped rows and reconstructed 500-question full optical arms; primary 9000 LoCoMo rows remain unchanged. Paired conversation bootstrap descriptive. No 384-token escalation, repeat selection, or second attempt."
+}

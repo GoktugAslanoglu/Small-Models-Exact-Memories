@@ -1,0 +1,212 @@
+[
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "tokenizer_config.json",
+    "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+    "bytes": 16709,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "config.json",
+    "sha256": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+    "bytes": 2908,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "preprocessor_config.json",
+    "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "bytes": 390,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "chat_template.jinja",
+    "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+    "bytes": 7755,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "LICENSE",
+    "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+    "bytes": 11544,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "merges.txt",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/merges.txt",
+    "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+    "bytes": 3353259,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "tokenizer.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/tokenizer.json",
+    "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "bytes": 12807982,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "video_preprocessor_config.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/video_preprocessor_config.json",
+    "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "bytes": 385,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "file": "vocab.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/vocab.json",
+    "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+    "bytes": 6722759,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "tokenizer_config.json",
+    "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "bytes": 16710,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "config.json",
+    "sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05",
+    "bytes": 3126,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "preprocessor_config.json",
+    "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "bytes": 390,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "chat_template.jinja",
+    "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "bytes": 7756,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "LICENSE",
+    "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+    "bytes": 11544,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "merges.txt",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-9B/resolve/c202236235762e1c871ad0ccb60c8ee5ba337b9a/merges.txt",
+    "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+    "bytes": 3353259,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "tokenizer.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-9B/resolve/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer.json",
+    "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "bytes": 12807982,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "video_preprocessor_config.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-9B/resolve/c202236235762e1c871ad0ccb60c8ee5ba337b9a/video_preprocessor_config.json",
+    "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "bytes": 385,
+    "model_weight": false
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "vocab.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-9B/resolve/c202236235762e1c871ad0ccb60c8ee5ba337b9a/vocab.json",
+    "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+    "bytes": 6722759,
+    "model_weight": false
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "tokenizer_config.json",
+    "sha256": "13809913afa65678aff5d54d888720c30cb000d0e9a85799ef22d1ca9dfdf228",
+    "bytes": 7341,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "config.json",
+    "sha256": "ef88f66ef623085cd86f5fd14bd6647a0b7175b9a25773049b82611d4ac82181",
+    "bytes": 1580,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "preprocessor_config.json",
+    "sha256": "02cc50c36240882ae35e8cd4077a25a379664108185d728d261cb785aefeccff",
+    "bytes": 367,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "chat_template.jinja",
+    "sha256": "bf6cfe131f9af1cdbe0e1e4bda8cd56154e63d95d50df697155654bde7b387fd",
+    "bytes": 4605,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "generation_config.json",
+    "sha256": "e9527bdf03e7d4971f9cacdbcf81a5fe04b10b64fc478bba6bf389cc0e597b72",
+    "bytes": 239,
+    "source": "verified Stage00"
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "tokenizer.json",
+    "url": "https://huggingface.co/zai-org/GLM-4.6V-Flash/resolve/411bb4d77144a3f03accbf4b780f5acb8b7cde4e/tokenizer.json",
+    "sha256": "9340665016419c825c4bdabbcc9acc43b7ca2c68ce142724afa829abb1be5efd",
+    "bytes": 19970699,
+    "model_weight": false
+  },
+  {
+    "model": "zai-org/GLM-4.6V-Flash",
+    "revision": "411bb4d77144a3f03accbf4b780f5acb8b7cde4e",
+    "file": "video_preprocessor_config.json",
+    "url": "https://huggingface.co/zai-org/GLM-4.6V-Flash/resolve/411bb4d77144a3f03accbf4b780f5acb8b7cde4e/video_preprocessor_config.json",
+    "sha256": "00001992801fc96770b436f735a11066dab59173314e258a08504fa03ca23133",
+    "bytes": 369,
+    "model_weight": false
+  }
+]

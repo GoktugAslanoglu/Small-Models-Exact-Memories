@@ -1,0 +1,9 @@
+model,condition,category_name,n,mean_official_token_f1,normalized_exact_match_rate,mean_latency_seconds,total_latency_seconds
+Qwen/Qwen3.5-2B,full_optical_8px,ALL,100,0.01218,0,1.573848,157.385
+Qwen/Qwen3.5-2B,full_optical_8px,multi_hop,20,0.040347,0,1.683162,33.663
+Qwen/Qwen3.5-2B,full_optical_8px,single_hop,50,0.008221,0,1.619474,80.974
+Qwen/Qwen3.5-2B,full_optical_8px,temporal,30,0.0,0,1.42493,42.748
+Qwen/Qwen3.5-9B,full_optical_8px,ALL,100,0.085559,0.04,3.950157,395.016
+Qwen/Qwen3.5-9B,full_optical_8px,multi_hop,20,0.049524,0,3.877278,77.546
+Qwen/Qwen3.5-9B,full_optical_8px,single_hop,50,0.132513,0.08,4.00054,200.027
+Qwen/Qwen3.5-9B,full_optical_8px,temporal,30,0.031326,0,3.914773,117.443

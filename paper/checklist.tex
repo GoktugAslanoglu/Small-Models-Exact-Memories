@@ -1,0 +1,87 @@
+\section*{NeurIPS Paper Checklist}
+
+\begin{enumerate}
+
+\item {\bf Claims}
+    \item[] Question: Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The abstract and Sections~1 and~6 center the selection/context-use failure pattern, treat the Qwen size association as supporting within-family evidence, and bound cross-family generalization.
+
+\item {\bf Limitations}
+    \item[] Question: Does the paper discuss the limitations of the work performed by the authors?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~5 discusses the small controlled set, one-family size curve, frozen LoCoMo subset, selected-evidence confounds, one external density, output behavior, token comparability, timing protocol, and absence of end-to-end agent evaluation.
+
+\item {\bf Theory assumptions and proofs}
+    \item[] Question: For each theoretical result, does the paper provide the full set of assumptions and a complete (and correct) proof?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The paper reports empirical stress tests and does not make theoretical claims requiring formal assumptions or proofs.
+
+    \item {\bf Experimental result reproducibility}
+    \item[] Question: Does the paper fully disclose all the information needed to reproduce the main experimental results of the paper to the extent that it affects the main claims and/or conclusions of the paper (regardless of whether the code and data are provided or not)?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~3 and Appendices~E--H specify seeds, data construction, prompts, rendering, models, hardware, decoding, scoring, and checks for the original study and separate follow-ups. Appendix~E states historical pinning gaps and the boundary between score reconstruction and fresh GPU replay.
+
+\item {\bf Open access to data and code}
+    \item[] Question: Does the paper provide open access to the data and code, with sufficient instructions to faithfully reproduce the main experimental results, as described in supplemental material?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The supplementary artifacts contain generators, manifests, prompts, predictions, scoring and analysis scripts, and run instructions. The accompanying source package contains audited per-question evidence and scripts that regenerate the reported scores and tables; Appendix~E records historical reproducibility gaps.
+
+\item {\bf Experimental setting/details}
+    \item[] Question: Does the paper specify all the training and test details (e.g., data splits, hyperparameters, how they were chosen, type of optimizer) necessary to understand the results?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~3 reports models, sample sizes, hardware, precision, decoding, token accounting, and metrics; Appendices~B--H specify the original controls and separate retrieval, held-out layout, and cap-sensitivity protocols.
+
+\item {\bf Experiment statistical significance}
+    \item[] Question: Does the paper report error bars suitably and correctly defined or other appropriate information about the statistical significance of the experiments?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Original contrasts use episode- or conversation-clustered intervals and paired sign-flip tests. The layout diagnostic uses paired exact McNemar tests with Holm correction and design-stratified intervals. Retrieval and cap diagnostics use conversation-clustered intervals; descriptive cells and pointwise uncertainty are labeled.
+
+\item {\bf Experiments compute resources}
+    \item[] Question: For each experiment, does the paper provide sufficient information on the computer resources (type of compute workers, memory, time of execution) needed to reproduce the experiments?
+    \item[] Answer: \answerNo{}
+    \item[] Justification: Section~3 and Appendix~E report hardware, precision, response counts, and synchronized generation-only timings for the original headline LoCoMo comparisons. Complete end-to-end times and total project compute, including exploratory runs and setup, were not comprehensively logged. Response counts are not treated as compute estimates.
+    
+\item {\bf Code of ethics}
+    \item[] Question: Does the research conducted in the paper conform, in every respect, with the NeurIPS Code of Ethics \url{https://neurips.cc/public/EthicsGuidelines}?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The work follows the NeurIPS Code of Ethics; it uses synthetic histories and an existing benchmark and does not collect private deployed-agent logs.
+
+\item {\bf Broader impacts}
+    \item[] Question: Does the paper discuss both potential positive societal impacts and negative societal impacts of the work performed?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~5 discusses privacy, retention, access-control, deletion, and audit risks that arise if rendered long-term memory is deployed.
+    
+\item {\bf Safeguards}
+    \item[] Question: Does the paper describe safeguards that have been put in place for responsible release of data or models that have a high risk for misuse (e.g., pre-trained language models, image generators, or scraped datasets)?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The study releases no trained model and no high-risk capability; it evaluates memory representations. Operational safeguards for deployment are nevertheless discussed in Section~5.
+
+\item {\bf Licenses for existing assets}
+    \item[] Question: Are the creators or original owners of assets (e.g., code, data, models), used in the paper, properly credited and are the license and terms of use explicitly mentioned and properly respected?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The paper credits LoCoMo and the evaluated model families, and the supplementary artifact records the source URLs, hashes, and applicable upstream terms.
+
+\item {\bf New assets}
+    \item[] Question: Are new assets introduced in the paper well documented and is the documentation provided alongside the assets?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~3 and Appendix~E document the controlled benchmark and harness; Appendices~F--H document separate retrieval, layout, and generation-cap diagnostics. The source package includes frozen protocols, held-out identifier cases, decoded outputs, input-audit exports, and score-reconstruction scripts.
+
+\newpage
+\item {\bf Crowdsourcing and research with human subjects}
+    \item[] Question: For crowdsourcing experiments and research with human subjects, does the paper include the full text of instructions given to participants and screenshots, if applicable, as well as details about compensation (if any)? 
+    \item[] Answer: \answerNA{}
+    \item[] Justification: No crowdsourcing or new human-subject data collection was performed; LoCoMo is used as a previously published benchmark.
+
+\item {\bf Institutional review board (IRB) approvals or equivalent for research with human subjects}
+    \item[] Question: Does the paper describe potential risks incurred by study participants, whether such risks were disclosed to the subjects, and whether Institutional Review Board (IRB) approvals (or an equivalent approval/review based on the requirements of your country or institution) were obtained?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The study performs no intervention or new data collection involving human subjects.
+
+\item {\bf Declaration of LLM usage}
+    \item[] Question: Does the paper describe the usage of LLMs if it is an important, original, or non-standard component of the core methods in this research? Note that if the LLM is used only for writing, editing, or formatting purposes and does \emph{not} impact the core methodology, scientific rigor, or originality of the research, declaration is not required.
+    %this research? 
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~3 describes the evaluated multimodal readers. Generative AI also assisted implementation, analysis-code checks, and writing. The included scripts compute reference-based scores and statistical tests from archived predictions.
+
+\end{enumerate}

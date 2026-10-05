@@ -1,0 +1,134 @@
+[
+  {
+    "model": "Qwen3.5-2B",
+    "left": "bm25_equal_vision_budget_text",
+    "right": "full_optical_8px",
+    "effect": 0.3880437738601002,
+    "ci95": [
+      0.3171211303998187,
+      0.4634140899867229
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "Qwen3.5-2B",
+    "left": "full_raw_text",
+    "right": "full_optical_8px",
+    "effect": 0.3566968832098397,
+    "ci95": [
+      0.2800877773142067,
+      0.4303808185883563
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "Qwen3.5-2B",
+    "left": "selected_evidence_8px",
+    "right": "full_optical_8px",
+    "effect": 0.35647271508331363,
+    "ci95": [
+      0.27749261249918633,
+      0.4491479907391459
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "Qwen3.5-2B",
+    "left": "full_raw_text",
+    "right": "bm25_equal_vision_budget_text",
+    "effect": -0.03134689065026046,
+    "ci95": [
+      -0.08184632096657321,
+      0.025846856905518408
+    ],
+    "p_two_sided": 0.3046875
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "left": "bm25_equal_vision_budget_text",
+    "right": "full_optical_8px",
+    "effect": 0.32368854874807373,
+    "ci95": [
+      0.23947105662449944,
+      0.409186349029711
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "left": "full_raw_text",
+    "right": "full_optical_8px",
+    "effect": 0.3118841187315882,
+    "ci95": [
+      0.2517658268555723,
+      0.37426387122223637
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "left": "selected_evidence_8px",
+    "right": "full_optical_8px",
+    "effect": 0.41106234348426984,
+    "ci95": [
+      0.3184491440028666,
+      0.5011764381395704
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "left": "full_raw_text",
+    "right": "bm25_equal_vision_budget_text",
+    "effect": -0.01180443001648554,
+    "ci95": [
+      -0.06236357553462686,
+      0.049078192482949395
+    ],
+    "p_two_sided": 0.70703125
+  },
+  {
+    "model": "GLM-4.6V-Flash",
+    "left": "bm25_equal_vision_budget_text",
+    "right": "full_optical_8px",
+    "effect": 0.21938037226530485,
+    "ci95": [
+      0.1558458711276646,
+      0.2893205330110503
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "GLM-4.6V-Flash",
+    "left": "full_raw_text",
+    "right": "full_optical_8px",
+    "effect": 0.22062471621501314,
+    "ci95": [
+      0.15364135898467818,
+      0.28355695866935
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "GLM-4.6V-Flash",
+    "left": "selected_evidence_8px",
+    "right": "full_optical_8px",
+    "effect": 0.29176408213364735,
+    "ci95": [
+      0.21265585461237638,
+      0.36956593487028266
+    ],
+    "p_two_sided": 0.001953125
+  },
+  {
+    "model": "GLM-4.6V-Flash",
+    "left": "full_raw_text",
+    "right": "bm25_equal_vision_budget_text",
+    "effect": 0.0012443439497083486,
+    "ci95": [
+      -0.05366944252539814,
+      0.060786180588735
+    ],
+    "p_two_sided": 0.962890625
+  }
+]

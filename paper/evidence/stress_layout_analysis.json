@@ -1,0 +1,160 @@
+{
+  "role": "new prospectively specified follow-up; separate from original six tests",
+  "readers": {
+    "Qwen2B": {
+      "arms": {
+        "full_raw": {
+          "n": 48,
+          "em": 0.9791666666666666,
+          "correct": 47,
+          "cer": 0.020833333333333332,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "original_c2_p4": {
+          "n": 48,
+          "em": 0.0,
+          "correct": 0,
+          "cer": 1.8697916666666667,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "efficient_c2_p4": {
+          "n": 48,
+          "em": 0.125,
+          "correct": 6,
+          "cer": 1.279513888888889,
+          "literal_raw_em": 0.0,
+          "caps": 1
+        },
+        "readable_p4": {
+          "n": 48,
+          "em": 0.3541666666666667,
+          "correct": 17,
+          "cer": 1.1562500000000002,
+          "literal_raw_em": 0.0,
+          "caps": 2
+        }
+      },
+      "readable_meets_prespecified_75_percent": false,
+      "raw_meets_prespecified_87p5_percent": true,
+      "primary": {
+        "reader": "Qwen2B",
+        "effect": 0.125,
+        "paired_ci95": [
+          0.0625,
+          0.1875
+        ],
+        "gains": 6,
+        "losses": 0,
+        "p": 0.03125,
+        "holm_p": 0.03125,
+        "reject_005": true
+      }
+    },
+    "Qwen9B": {
+      "arms": {
+        "full_raw": {
+          "n": 48,
+          "em": 0.9583333333333334,
+          "correct": 46,
+          "cer": 0.078125,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "original_c2_p4": {
+          "n": 48,
+          "em": 0.0,
+          "correct": 0,
+          "cer": 1.4800347222222223,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "efficient_c2_p4": {
+          "n": 48,
+          "em": 0.4375,
+          "correct": 21,
+          "cer": 0.14930555555555555,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "readable_p4": {
+          "n": 48,
+          "em": 0.7291666666666666,
+          "correct": 35,
+          "cer": 0.09375,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        }
+      },
+      "readable_meets_prespecified_75_percent": false,
+      "raw_meets_prespecified_87p5_percent": true,
+      "primary": {
+        "reader": "Qwen9B",
+        "effect": 0.4375,
+        "paired_ci95": [
+          0.3541666666666667,
+          0.5208333333333334
+        ],
+        "gains": 21,
+        "losses": 0,
+        "p": 9.5367431640625e-07,
+        "holm_p": 2.86102294921875e-06,
+        "reject_005": true
+      }
+    },
+    "GLM": {
+      "arms": {
+        "full_raw": {
+          "n": 48,
+          "em": 1.0,
+          "correct": 48,
+          "cer": 0.0,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "original_c2_p4": {
+          "n": 48,
+          "em": 0.0,
+          "correct": 0,
+          "cer": 1.9392361111111114,
+          "literal_raw_em": 0.0,
+          "caps": 0
+        },
+        "efficient_c2_p4": {
+          "n": 48,
+          "em": 0.14583333333333334,
+          "correct": 7,
+          "cer": 0.5277777777777778,
+          "literal_raw_em": 0.14583333333333334,
+          "caps": 0
+        },
+        "readable_p4": {
+          "n": 48,
+          "em": 0.6041666666666666,
+          "correct": 29,
+          "cer": 0.109375,
+          "literal_raw_em": 0.5625,
+          "caps": 0
+        }
+      },
+      "readable_meets_prespecified_75_percent": false,
+      "raw_meets_prespecified_87p5_percent": true,
+      "primary": {
+        "reader": "GLM",
+        "effect": 0.14583333333333334,
+        "paired_ci95": [
+          0.10416666666666667,
+          0.1875
+        ],
+        "gains": 7,
+        "losses": 0,
+        "p": 0.015625,
+        "holm_p": 0.03125,
+        "reject_005": true
+      }
+    }
+  },
+  "verified_rows": 576,
+  "warning": "Two replicates per joint cell; boundary bootstrap intervals do not establish certainty. No interaction significance claims."
+}

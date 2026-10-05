@@ -1,0 +1,40 @@
+{
+  "status": "development-verified",
+  "selected_layout": "L3_fullwidth_wordwrap",
+  "scores": [
+    {
+      "layout": "L1_fullwidth_charwrap",
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "median_min_page_effective_font_em": 11.252747252747254,
+      "median_max_width_fraction": 0.9523809523809523
+    },
+    {
+      "layout": "L2_twocolumn_wordwrap",
+      "n": 12,
+      "correct": 1,
+      "em": 0.08333333333333333,
+      "median_min_page_effective_font_em": 10.971428571428572,
+      "median_max_width_fraction": 0.9535714285714286
+    },
+    {
+      "layout": "L3_fullwidth_wordwrap",
+      "n": 12,
+      "correct": 1,
+      "em": 0.08333333333333333,
+      "median_min_page_effective_font_em": 11.252747252747254,
+      "median_max_width_fraction": 0.9523809523809523
+    }
+  ],
+  "dev_freeze_sha256": "17b9d01c0e80724e89ee14a69f7e11c9b6d9f74817c2503bcdbb68032fd33bdd",
+  "prepared_input_freeze_sha256": "cf20f41f0515d85556653b721abe4ccd0ffc574bebbea7380c71fa09c4710733",
+  "result_files": [
+    {
+      "path": "C:\\Users\\PC\\Documents\\ChatGPT\\SLM-agents\\final_iclr\\checkpoints\\dev_recovery1_1789989576901081577\\output\\RUN_COMPLETE.json",
+      "sha256": "d8efa4af525316fb861f248876c496c732f3bc30d7cb00fe2f5d69876f42f2a5"
+    }
+  ],
+  "selection_rule": "Frozen EM, glyph, width, lexical order; no additional development round",
+  "verified_rows": 36
+}

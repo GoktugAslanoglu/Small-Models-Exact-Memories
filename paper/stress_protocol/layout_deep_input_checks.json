@@ -1,0 +1,270 @@
+{
+  "rows": 576,
+  "exact_pixel_pages": 1728,
+  "unique_render_groups": 288,
+  "selection_matches_verified_development": true,
+  "selection_byte_difference": "CPU serializer normalizes Windows CRLF to LF; parsed JSON is exactly equal",
+  "all_native_source_counts_verified": true,
+  "all_target_spans_present": true,
+  "all_raw_chats_include_exact_memory": true,
+  "summary": {
+    "Qwen2B/full_raw": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        0,
+        0
+      ],
+      "total": [
+        8252,
+        8265
+      ],
+      "font": [],
+      "glyph": []
+    },
+    "Qwen2B/original_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        4.140161725067386,
+        4.179591836734694
+      ],
+      "glyph": [
+        2.4150943396226414,
+        2.4380952380952383
+      ]
+    },
+    "Qwen2B/efficient_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        10.971428571428572,
+        10.971428571428572
+      ],
+      "glyph": [
+        6.4,
+        6.4
+      ]
+    },
+    "Qwen2B/readable_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        10000,
+        10000
+      ],
+      "total": [
+        10075,
+        10077
+      ],
+      "font": [
+        17.142857142857142,
+        17.142857142857142
+      ],
+      "glyph": [
+        10.0,
+        10.0
+      ]
+    },
+    "Qwen9B/full_raw": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        0,
+        0
+      ],
+      "total": [
+        8252,
+        8265
+      ],
+      "font": [],
+      "glyph": []
+    },
+    "Qwen9B/original_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        4.140161725067386,
+        4.179591836734694
+      ],
+      "glyph": [
+        2.4150943396226414,
+        2.4380952380952383
+      ]
+    },
+    "Qwen9B/efficient_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        10.971428571428572,
+        10.971428571428572
+      ],
+      "glyph": [
+        6.4,
+        6.4
+      ]
+    },
+    "Qwen9B/readable_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        10000,
+        10000
+      ],
+      "total": [
+        10075,
+        10077
+      ],
+      "font": [
+        17.142857142857142,
+        17.142857142857142
+      ],
+      "glyph": [
+        10.0,
+        10.0
+      ]
+    },
+    "GLM/full_raw": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        0,
+        0
+      ],
+      "total": [
+        7531,
+        7587
+      ],
+      "font": [],
+      "glyph": []
+    },
+    "GLM/original_c2_p4": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        3844,
+        3844
+      ],
+      "total": [
+        3914,
+        3916
+      ],
+      "font": [
+        3.509433962264151,
+        3.5428571428571427
+      ],
+      "glyph": [
+        2.047169811320755,
+        2.066666666666667
+      ]
+    },
+    "GLM/efficient_c2_p4": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        3844,
+        3844
+      ],
+      "total": [
+        3914,
+        3916
+      ],
+      "font": [
+        9.3,
+        9.3
+      ],
+      "glyph": [
+        5.425,
+        5.425
+      ]
+    },
+    "GLM/readable_p4": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        13456,
+        13456
+      ],
+      "total": [
+        13526,
+        13528
+      ],
+      "font": [
+        17.4,
+        17.4
+      ],
+      "glyph": [
+        10.15,
+        10.15
+      ]
+    }
+  }
+}

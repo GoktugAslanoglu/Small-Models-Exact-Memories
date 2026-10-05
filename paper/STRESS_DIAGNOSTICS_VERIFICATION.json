@@ -1,0 +1,380 @@
+{
+  "status": "passed",
+  "layout": {
+    "rows": 576,
+    "cases": 48,
+    "matched_native_pairs": 144,
+    "counts": {
+      "Qwen2B": {
+        "full_raw": 47,
+        "original_c2_p4": 0,
+        "efficient_c2_p4": 6,
+        "readable_p4": 17
+      },
+      "Qwen9B": {
+        "full_raw": 46,
+        "original_c2_p4": 0,
+        "efficient_c2_p4": 21,
+        "readable_p4": 35
+      },
+      "GLM": {
+        "full_raw": 48,
+        "original_c2_p4": 0,
+        "efficient_c2_p4": 7,
+        "readable_p4": 29
+      }
+    },
+    "contrasts": [
+      {
+        "reader": "Qwen2B",
+        "gains": 6,
+        "losses": 0,
+        "effect": 0.125,
+        "ci95": [
+          0.0625,
+          0.1875
+        ],
+        "p": 0.03125,
+        "holm_p": 0.03125
+      },
+      {
+        "reader": "Qwen9B",
+        "gains": 21,
+        "losses": 0,
+        "effect": 0.4375,
+        "ci95": [
+          0.3541666666666667,
+          0.5208333333333334
+        ],
+        "p": 9.5367431640625e-07,
+        "holm_p": 2.86102294921875e-06
+      },
+      {
+        "reader": "GLM",
+        "gains": 7,
+        "losses": 0,
+        "effect": 0.14583333333333334,
+        "ci95": [
+          0.10416666666666667,
+          0.1875
+        ],
+        "p": 0.015625,
+        "holm_p": 0.03125
+      }
+    ],
+    "input_ranges": {
+      "Qwen2B": {
+        "full_raw": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            0,
+            0
+          ],
+          "total_input_tokens": [
+            8252,
+            8265
+          ],
+          "source_to_vision_ratio": null
+        },
+        "original_c2_p4": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            4096,
+            4096
+          ],
+          "total_input_tokens": [
+            4171,
+            4173
+          ],
+          "source_to_vision_ratio": [
+            1.99853515625,
+            2.001220703125
+          ]
+        },
+        "efficient_c2_p4": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            4096,
+            4096
+          ],
+          "total_input_tokens": [
+            4171,
+            4173
+          ],
+          "source_to_vision_ratio": [
+            1.99853515625,
+            2.001220703125
+          ]
+        },
+        "readable_p4": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            10000,
+            10000
+          ],
+          "total_input_tokens": [
+            10075,
+            10077
+          ],
+          "source_to_vision_ratio": [
+            0.8186,
+            0.8197
+          ]
+        }
+      },
+      "Qwen9B": {
+        "full_raw": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            0,
+            0
+          ],
+          "total_input_tokens": [
+            8252,
+            8265
+          ],
+          "source_to_vision_ratio": null
+        },
+        "original_c2_p4": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            4096,
+            4096
+          ],
+          "total_input_tokens": [
+            4171,
+            4173
+          ],
+          "source_to_vision_ratio": [
+            1.99853515625,
+            2.001220703125
+          ]
+        },
+        "efficient_c2_p4": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            4096,
+            4096
+          ],
+          "total_input_tokens": [
+            4171,
+            4173
+          ],
+          "source_to_vision_ratio": [
+            1.99853515625,
+            2.001220703125
+          ]
+        },
+        "readable_p4": {
+          "source_text_tokens": [
+            8186,
+            8197
+          ],
+          "vision_tokens": [
+            10000,
+            10000
+          ],
+          "total_input_tokens": [
+            10075,
+            10077
+          ],
+          "source_to_vision_ratio": [
+            0.8186,
+            0.8197
+          ]
+        }
+      },
+      "GLM": {
+        "full_raw": {
+          "source_text_tokens": [
+            7469,
+            7525
+          ],
+          "vision_tokens": [
+            0,
+            0
+          ],
+          "total_input_tokens": [
+            7531,
+            7587
+          ],
+          "source_to_vision_ratio": null
+        },
+        "original_c2_p4": {
+          "source_text_tokens": [
+            7469,
+            7525
+          ],
+          "vision_tokens": [
+            3844,
+            3844
+          ],
+          "total_input_tokens": [
+            3914,
+            3916
+          ],
+          "source_to_vision_ratio": [
+            1.9430280957336108,
+            1.9575962539021852
+          ]
+        },
+        "efficient_c2_p4": {
+          "source_text_tokens": [
+            7469,
+            7525
+          ],
+          "vision_tokens": [
+            3844,
+            3844
+          ],
+          "total_input_tokens": [
+            3914,
+            3916
+          ],
+          "source_to_vision_ratio": [
+            1.9430280957336108,
+            1.9575962539021852
+          ]
+        },
+        "readable_p4": {
+          "source_text_tokens": [
+            7469,
+            7525
+          ],
+          "vision_tokens": [
+            13456,
+            13456
+          ],
+          "total_input_tokens": [
+            13526,
+            13528
+          ],
+          "source_to_vision_ratio": [
+            0.5550683709869203,
+            0.559230083234245
+          ]
+        }
+      }
+    },
+    "fresh_processor_reexecution": false,
+    "development_rows_excluded": 36
+  },
+  "cap": {
+    "rows": 247,
+    "baseline_rows_accounted_for": 1000,
+    "prefix_mismatches": 0,
+    "readers": {
+      "Qwen2B": {
+        "old": 0.0983781801312874,
+        "new": 0.09988905723673885,
+        "change": 0.0015108771054514526,
+        "ci95": [
+          -9.818006496516102e-06,
+          0.0033152283702602716
+        ],
+        "reruns": 126,
+        "still_capped": 22,
+        "prefix_mismatches": 0
+      },
+      "Qwen9B": {
+        "old": 0.159513869643124,
+        "new": 0.16098018669743788,
+        "change": 0.0014663170543138884,
+        "ci95": [
+          -0.0003645514677669217,
+          0.003339602121147887
+        ],
+        "reruns": 121,
+        "still_capped": 8,
+        "prefix_mismatches": 0
+      }
+    }
+  },
+  "scope": "Separate diagnostic samples and bounded cap sensitivity; original results unchanged",
+  "input_sha256": {
+    "stress_protocol/cap_prefixes.json": "4811a2c34fcf51f728601221dc5133506004f1c36013d33d7a117fe00c4fa6a9",
+    "stress_protocol/cap_protocol.json": "6e5ae5428747960af2e0f71f149d7230f01557cb0d7abfc99686b893b9822ff8",
+    "stress_protocol/frozen_cap_analysis.py": "a51d28ecf7cebd0a4e19b206431db9d3a680f1f3723a5ed69c12205c8c12cd79",
+    "stress_protocol/frozen_layout_analysis.py": "d97db99480da0768b96847218bac13e4e21270f95731cb10a25f58047bc8ae03",
+    "stress_protocol/frozen_scoring.py": "3387be2fd1531c70b87dd88731977650d8f2ddb924c336bac452e3717233b210",
+    "stress_protocol/layout_audit.json": "655c7a080dd475588261ec390ac88e31ca3d107eec8608e15ec58e11e7cd0251",
+    "stress_protocol/layout_deep_input_checks.json": "033dbe5ba5d2fecf75147c765d2d3ea6c4a3d9206753c298e57b344e6a4690d2",
+    "stress_protocol/layout_native_pairs.json": "eea98238dbe49098755ba16fb673b803195eef6803a05f629880f99eddc18407",
+    "stress_protocol/layout_protocol.json": "8d7ac12c3ac2d6ea28dd519de7d763f5c973865ec390098c2236e7bf8b5456ab",
+    "stress_protocol/layout_protocol.md": "679f4dc240974e8d0c0aa1d7db413f721fde27296c9b59576454189a0124dcfc",
+    "stress_protocol/layout_selection.json": "990c16247988bbc76b1adcf918ea0a3f1019e9633fc2d4bc245fc088a2f0aff5",
+    "stress_protocol/cases/followup-eval-000.json": "bc1edfe20d4733013ae22b294923c1a596c932af64ecb17c5bf59e8220717bf8",
+    "stress_protocol/cases/followup-eval-001.json": "d658d7c59385d554ece7848aaab384d45621a05f9db74977f4548902f122dd51",
+    "stress_protocol/cases/followup-eval-002.json": "49d4fc0fdef72f70fd665e5c450c45765ce764b536d64207c50f71716a387a02",
+    "stress_protocol/cases/followup-eval-003.json": "1704f7a75f4265282af2b9aa713bbb5e97d4eba2846cfc228ff9d50fc83d00e1",
+    "stress_protocol/cases/followup-eval-004.json": "72582df8e0ecd61eaa3bd01b06ecae255e9a5449826b3931c7076eb8be9f9e94",
+    "stress_protocol/cases/followup-eval-005.json": "656e17df29348cb870968dd9de36d79336bb2ba4b0a1f11dc656c9e744ff03a3",
+    "stress_protocol/cases/followup-eval-006.json": "fb53167db727f0df9f2252b8ad4d63b098041c60155a9ce2cb4a31833e54c3f3",
+    "stress_protocol/cases/followup-eval-007.json": "87379387f5d6b6ccf8d5aca2b4e6149918d08f95ab121685a0aec76ebe66f260",
+    "stress_protocol/cases/followup-eval-008.json": "70b711c054678649eb45b1d3b75c92082b5fe70e364b3ae973f323615a0ff92b",
+    "stress_protocol/cases/followup-eval-009.json": "24d1da032291716bcd5613fc6714598c18da8186fbe1a56c746c56ad3a1045b7",
+    "stress_protocol/cases/followup-eval-010.json": "cd2bcbd88356858d5c487c40c6edc6c52afc990b95b91e1f46fbb3ee6e068c75",
+    "stress_protocol/cases/followup-eval-011.json": "d7b19bcdcd10f75f8c0fa08434c7902a86d59cfdec28784a23b455253024933d",
+    "stress_protocol/cases/followup-eval-012.json": "93c8c3ce8909055227d20505534a6b6949795f943af75542d42533bfd1702321",
+    "stress_protocol/cases/followup-eval-013.json": "c1cdf7b2cc9b8273789afa6b7ca0e36291bd22c82ab0086bb2dc1cc0e3ff5632",
+    "stress_protocol/cases/followup-eval-014.json": "983b32eb7a4136b3baefdf23c729e819ac54b53821c58a0e9d6abebde3c26c10",
+    "stress_protocol/cases/followup-eval-015.json": "7442bffc80e022ca8fb6525bc3e07604e4505a1bcfede397d99ca05e611822b5",
+    "stress_protocol/cases/followup-eval-016.json": "5620cd90474a09a43200482cb5cfe422f4a015a2619828275707e0c5f54710fb",
+    "stress_protocol/cases/followup-eval-017.json": "74142740d1d2632cff1e56dc74af8973995c8d167245269de771dd1c895c684d",
+    "stress_protocol/cases/followup-eval-018.json": "cf7363d3cb70c11fc30f2364c7d22c4932ad9d7f6dff79598bec0cc5eda7e209",
+    "stress_protocol/cases/followup-eval-019.json": "238c8eab6b5ee0588637a0fa529349adf93eeb3ec20d8e09d5fc115616a96994",
+    "stress_protocol/cases/followup-eval-020.json": "b730b169addb863742ab4baa0c7abba7f9b2b6d75c8a555b8ff63019eba794b8",
+    "stress_protocol/cases/followup-eval-021.json": "0fb9c8fe5c8e5602612b067d320635f7b1fef0468f96ac7531d3ddb071822e56",
+    "stress_protocol/cases/followup-eval-022.json": "c53ce2b4c3fddeddc9867792da0c337ec1a48d1122aefb1a0e1bd864a2f4a096",
+    "stress_protocol/cases/followup-eval-023.json": "43b6c4ed3386d20bb036b26c5cfdf7a7060deefbddd42b8a84a79667e1d95845",
+    "stress_protocol/cases/followup-eval-024.json": "cbe7da0044f379b78c2eee48d75aec7af0fbdcc4861b53850106c952df2a5ecd",
+    "stress_protocol/cases/followup-eval-025.json": "794c47b883bda5ab8eaf3b7ef94a8433cfc1cdf2ac7f9e8dd2453a0dd4956145",
+    "stress_protocol/cases/followup-eval-026.json": "240d28f900ed1ff75d0224c0270f0c9d7ed258ae69e8127b1caf7bb5ab4267fe",
+    "stress_protocol/cases/followup-eval-027.json": "c933f687824d2db64ebffc86d1ed242c4651ec686f1951d62462f2533a00d083",
+    "stress_protocol/cases/followup-eval-028.json": "4f4e06b6b5ea27e0b2576d7e98aac4f5951d1b169accc8b05820e002c8d8f801",
+    "stress_protocol/cases/followup-eval-029.json": "10c64ff47592fe76672cb73ab09ce5e547892524daa6d10729e84f27de80cb8b",
+    "stress_protocol/cases/followup-eval-030.json": "a1888ce4dfe3af5f03df72766d0397cabe6c621653676cfc21ae30e24383edf5",
+    "stress_protocol/cases/followup-eval-031.json": "7ccc52b0cee1ccd8a7e4fb3ecbe80fc32e2fe706ac058cc8d73f363512a270e1",
+    "stress_protocol/cases/followup-eval-032.json": "4000954ae59d3893c1f6b0f63b4fd5b92d2778da4fa628614ce686ef7a2845db",
+    "stress_protocol/cases/followup-eval-033.json": "30f1bff49ac1043a285e4e4364bf1b4f23ef6713c3d7703ddeace2dbcf79cb9a",
+    "stress_protocol/cases/followup-eval-034.json": "559a17e330ed5aa7575feb0fda238ce87cd30361f4e64798f302d7b9317acb01",
+    "stress_protocol/cases/followup-eval-035.json": "bc2e919864294d999b527de24f81656e71fed9ccd9692b709f54db7a32c623a3",
+    "stress_protocol/cases/followup-eval-036.json": "ea4f3460ce7ce730adc57878dd7e7ecc6002111f8a53ccf8bd0532510f0ee4ef",
+    "stress_protocol/cases/followup-eval-037.json": "b2553b7ff5e0c85302a45dade75f849679a91a3436cdde1b66687fbbc32db4ad",
+    "stress_protocol/cases/followup-eval-038.json": "f1be367a54c84164c9b250655d2cb5aa16f8febe2b35a3036e1a77ba9437baef",
+    "stress_protocol/cases/followup-eval-039.json": "1dfa55b37e77ee7b61d5214bff4367dd737be6f7834e342153c436f6df838745",
+    "stress_protocol/cases/followup-eval-040.json": "b0880fddcc295f6bf03ab88f8bcdfa11074ce3928ce119a4f3e8df377f7a2393",
+    "stress_protocol/cases/followup-eval-041.json": "cddb3efac016dd028f31f74143eee300b0f5823f78eef9e6e058e3d92e54a1f5",
+    "stress_protocol/cases/followup-eval-042.json": "6d1b2fe9a138ee4294696c09229302ead27c71b58c4153d4e3d5ed631bee33b2",
+    "stress_protocol/cases/followup-eval-043.json": "775d8bc88a78e003b950d4840a7ff21e957d6d71f17aee8c02342cbea215aa9c",
+    "stress_protocol/cases/followup-eval-044.json": "b9fe922f85fe67758b45059f389fe8e83e8cfcfbdfa426e39b28cc74ef663838",
+    "stress_protocol/cases/followup-eval-045.json": "41d0eb716fdac771aea510e2faf9211676fa2068945f62c0800cd3cf04836bbd",
+    "stress_protocol/cases/followup-eval-046.json": "674aa4d917b6adc96c21c17bcd8a32c0e52b040ccca84cd41242acf6302680d6",
+    "stress_protocol/cases/followup-eval-047.json": "1621b11cc22be4a6481c67ecf0ff6d425c7ffe3a70579f0a3ef50d909d509ee6",
+    "evidence/stress_cap_analysis.json": "0907d85f337bb06e7b6b58c700c1ee3b212a4258b621787a0b3aa7d1517b7f5f",
+    "evidence/stress_cap_rows.json": "6e01a7e366a556525028fac13c77e84e47768c091d5f9d6320faa74468bd0919",
+    "evidence/stress_layout_analysis.json": "a65242782d5c7d6c198346b7f2258e0f2b26a6e73a092fb1ba14bb2f2287bdfd",
+    "evidence/stress_layout_rows.jsonl": "29bef2b92f381c211c04fcb9aa3b1b8621d8243e7420f9283e95e560cdd51a85"
+  }
+}

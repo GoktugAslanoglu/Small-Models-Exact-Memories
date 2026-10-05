@@ -1,0 +1,1 @@
+{"attention":"sdpa","batch_size":1,"hardware":"A100 40GB","precision":"bfloat16","python":"3.13","torch":"2.10.0+cu128","torchvision":"0.25.0+cu128","transformers":"5.3.0","wheel_inventory":{"bytes":14428,"path":"iclr/checkpoints/smoke_v3_9eb31e1ecfd7d234/files/WHEEL_INVENTORY.json","sha256":"df36d3061ba3a551a9d119c5feaccba1296132c73497cc4cf133e2f36effa887"}}

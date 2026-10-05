@@ -1,0 +1,362 @@
+[
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.41506,
+    "normalized_exact_match_rate": 0.13,
+    "mean_latency_seconds": 1.825383,
+    "total_latency_seconds": 182.538
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.348839,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 2.251572,
+    "total_latency_seconds": 45.031
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.508775,
+    "normalized_exact_match_rate": 0.26,
+    "mean_latency_seconds": 1.870233,
+    "total_latency_seconds": 93.512
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.303016,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 1.466508,
+    "total_latency_seconds": 43.995
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "oracle_evidence_24px_temporal_fixed",
+    "category_name": "ALL",
+    "n": 30,
+    "mean_official_token_f1": 0.190397,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.693434,
+    "total_latency_seconds": 20.803
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "oracle_evidence_24px_temporal_fixed",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.190397,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.693434,
+    "total_latency_seconds": 20.803
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "question_only",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.005,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.446768,
+    "total_latency_seconds": 44.677
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "question_only",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.025,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.438073,
+    "total_latency_seconds": 8.761
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "question_only",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.0,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.453626,
+    "total_latency_seconds": 22.681
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "question_only",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.0,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.441136,
+    "total_latency_seconds": 13.234
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.383489,
+    "normalized_exact_match_rate": 0.21,
+    "mean_latency_seconds": 0.822711,
+    "total_latency_seconds": 82.271
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.293608,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 0.832202,
+    "total_latency_seconds": 16.644
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.541011,
+    "normalized_exact_match_rate": 0.38,
+    "mean_latency_seconds": 0.890024,
+    "total_latency_seconds": 44.501
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.180873,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.704195,
+    "total_latency_seconds": 21.126
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.491846,
+    "normalized_exact_match_rate": 0.25,
+    "mean_latency_seconds": 0.597637,
+    "total_latency_seconds": 59.764
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.456369,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 0.783442,
+    "total_latency_seconds": 15.669
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.680398,
+    "normalized_exact_match_rate": 0.46,
+    "mean_latency_seconds": 0.631463,
+    "total_latency_seconds": 31.573
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "condition": "selected_evidence_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.201243,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.417392,
+    "total_latency_seconds": 12.522
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.422219,
+    "normalized_exact_match_rate": 0.14,
+    "mean_latency_seconds": 3.107831,
+    "total_latency_seconds": 310.783
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.311153,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 3.776291,
+    "total_latency_seconds": 75.526
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.567272,
+    "normalized_exact_match_rate": 0.28,
+    "mean_latency_seconds": 2.998283,
+    "total_latency_seconds": 149.914
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "bm25_equal_vision_budget_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.254509,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 2.844769,
+    "total_latency_seconds": 85.343
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "oracle_evidence_24px_temporal_fixed",
+    "category_name": "ALL",
+    "n": 30,
+    "mean_official_token_f1": 0.215317,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 0.922562,
+    "total_latency_seconds": 27.677
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "oracle_evidence_24px_temporal_fixed",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.215317,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 0.922562,
+    "total_latency_seconds": 27.677
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "question_only",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.005,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.592791,
+    "total_latency_seconds": 59.279
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "question_only",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.025,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.59225,
+    "total_latency_seconds": 11.845
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "question_only",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.0,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.593695,
+    "total_latency_seconds": 29.685
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "question_only",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.0,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.591645,
+    "total_latency_seconds": 17.749
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_8px",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.509593,
+    "normalized_exact_match_rate": 0.29,
+    "mean_latency_seconds": 1.084878,
+    "total_latency_seconds": 108.488
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_8px",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.493939,
+    "normalized_exact_match_rate": 0.15,
+    "mean_latency_seconds": 1.329817,
+    "total_latency_seconds": 26.596
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_8px",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.705706,
+    "normalized_exact_match_rate": 0.48,
+    "mean_latency_seconds": 1.097331,
+    "total_latency_seconds": 54.867
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_8px",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.193175,
+    "normalized_exact_match_rate": 0.066667,
+    "mean_latency_seconds": 0.900831,
+    "total_latency_seconds": 27.025
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_text",
+    "category_name": "ALL",
+    "n": 100,
+    "mean_official_token_f1": 0.374619,
+    "normalized_exact_match_rate": 0.17,
+    "mean_latency_seconds": 0.80091,
+    "total_latency_seconds": 80.091
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_text",
+    "category_name": "multi_hop",
+    "n": 20,
+    "mean_official_token_f1": 0.463198,
+    "normalized_exact_match_rate": 0.1,
+    "mean_latency_seconds": 1.195762,
+    "total_latency_seconds": 23.915
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_text",
+    "category_name": "single_hop",
+    "n": 50,
+    "mean_official_token_f1": 0.527769,
+    "normalized_exact_match_rate": 0.3,
+    "mean_latency_seconds": 0.795373,
+    "total_latency_seconds": 39.769
+  },
+  {
+    "model": "Qwen/Qwen3.5-9B",
+    "condition": "selected_evidence_text",
+    "category_name": "temporal",
+    "n": 30,
+    "mean_official_token_f1": 0.060317,
+    "normalized_exact_match_rate": 0,
+    "mean_latency_seconds": 0.546905,
+    "total_latency_seconds": 16.407
+  }
+]

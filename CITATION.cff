@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the paper and identify the release or commit used."
+type: software
+title: "Small Models, Exact Memories: Stress-Testing Optical Memory for Small Multimodal Agents"
+authors:
+  - family-names: "Aslanoğlu"
+    given-names: "Göktuğ"
+    affiliation: "Independent Researcher"
+  - family-names: "Vadlamani"
+    given-names: "Viswanadh"
+    affiliation: "Safe App"
+  - family-names: "Kocabay"
+    given-names: "Şuayp Talha"
+    affiliation: "Independent Researcher"
+version: "1.0.0"
+date-released: "2026-10-05"
+repository-code: "https://github.com/GoktugAslanoglu/Small-Models-Exact-Memories"
+url: "https://github.com/GoktugAslanoglu/Small-Models-Exact-Memories"

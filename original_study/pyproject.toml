@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentopt-pilot"
+version = "0.1.0"
+description = "Reproducible pilot for optical agent-memory fidelity experiments"
+requires-python = ">=3.10"
+dependencies = [
+  "Pillow>=10.2",
+]
+
+[project.optional-dependencies]
+hf = [
+  "accelerate>=1.0",
+  "torch>=2.6",
+  "torchvision>=0.21",
+  "transformers @ git+https://github.com/huggingface/transformers.git@main",
+]
+plots = [
+  "matplotlib>=3.8",
+]
+locomo = [
+  "nltk>=3.9",
+]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+agentopt-generate = "optical_memory.generate:main"
+agentopt-render = "optical_memory.rendering:main"
+agentopt-measure = "optical_memory.measure:main"
+agentopt-run = "optical_memory.run_hf:main"
+agentopt-score = "optical_memory.score:main"
+agentopt-plot = "optical_memory.plot:main"
+agentopt-readability-sweep = "optical_memory.readability_sweep:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

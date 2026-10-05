@@ -1,0 +1,5 @@
+model,protocol,mean_official_token_f1,normalized_exact_match_rate,mean_generated_tokens,generation_cap_rate,abstention_rate
+Qwen/Qwen3.5-2B,baseline_96,0.027016,0,28.11,0.14,0.73
+Qwen/Qwen3.5-2B,short32,0.01218,0,10.04,0.11,0.87
+Qwen/Qwen3.5-9B,baseline_96,0.09779,0,76.28,0.42,0.07
+Qwen/Qwen3.5-9B,short32,0.085559,0.04,28.27,0.84,0.08
